@@ -234,12 +234,12 @@ left: 3%;
 }
 
 .tri {
-left: -4%;
+left: -3%;
 top: 55.2%;
 }
 
 .cheture {
-right: -4%;
+right: -3.3%;
 top: 55.3%;
 }
 
@@ -300,16 +300,18 @@ left: 88%;
   color: black;
 }
 /* RESPONSIVE */
-@media all and (max-width: 1792px){
+@media all and (min-width: 568px){
 .burger1 {display:none;}
 .burger2 {display:none;}
 }
 
-@media all and (max-width: 1440px){
+@media all and (max-width: 1440px) and (min-width: 568px){
 p {font-size: 22px; }
 h1 {left: 45.7%;font-size: 35px;}
 h3 {font-size: 15px;}
 h2 {font-size: 19px;}
+.burger1 {display:none;}
+.burger2 {display:none;}
 .tri {left: -3%;}
 .cheture {right: -3%;}
 .plakat1 {margin-top: 10.8%;}
@@ -319,7 +321,21 @@ h2 {font-size: 19px;}
 .plakat2img {width: 28.3%;}
 .plakat3 {margin-top: -25.3%;}
 .plakat3img {width: 65%;}
+.plakat4img {width: 17.5%;}
+.plakat4 {margin-top: 11.5%;}
+.plakat4txt, .plakat5txt, .plakat6txt {top: 98%;}
+.plakat5img {width: 27.5%;}
+.plakat5 {margin-top: -25%;}
+.plakat6img {width: 63.6%;}
+.plakat6 {margin-top: -24.6%;}
+.plakat6txt {left: 74.4%;}
+.plakat5txt {width: 9%;}
 }
+
+@media all and (max-width: 320px){
+
+}
+
 
 /* CONTACTS */
 

@@ -1,5 +1,6 @@
 @import "reset.css";
 
+
 @font-face {
   font-family: "Apoc";
   font-weight: normal;
@@ -98,6 +99,10 @@ p {
 .mainpgbgimg {
 width: 96%;
 margin-left: 2%;
+}
+
+.burger1 {
+  width:20%;
 }
 
 .plakat1 {
@@ -278,6 +283,12 @@ top: 100%;
 .veta {
 bottom: 0.6%;
 left: 7.2%;
+color: black;
+text-decoration: none;
+}
+
+.veta:hover {
+opacity: 0.75;
 }
 
 .ha {
@@ -287,4 +298,43 @@ left: 88%;
 
 .veta, .ha {
   color: black;
+}
+/* RESPONSIVE */
+@media all and (max-width: 1792px){
+.burger1 {display:none;}
+.burger2 {display:none;}
+}
+
+@media all and (max-width: 1440px){
+p {font-size: 22px; }
+h1 {left: 45.7%;font-size: 35px;}
+h3 {font-size: 15px;}
+h2 {font-size: 19px;}
+.tri {left: -3%;}
+.cheture {right: -3%;}
+.plakat1 {margin-top: 10.8%;}
+.plakat1img {width: 18%;}
+.plakat1txt, .plakat2txt, .plakat3txt {top: 50.5%;}
+.plakat2 {margin-top: -25.3%;}
+.plakat2img {width: 28.3%;}
+.plakat3 {margin-top: -25.3%;}
+.plakat3img {width: 65%;}
+}
+
+/* CONTACTS */
+
+/* .contactsmain {
+  height: 99%;
+  border: 1px solid white;
+}
+
+.footercontacts {
+  height: 1%;
+  border: 1px solid white;
+} */
+
+.adresstxt {
+  font-family: "Apoc";
+top: 33.7%;
+left: 53.5%;
 }

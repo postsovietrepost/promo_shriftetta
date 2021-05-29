@@ -4,13 +4,13 @@
 @font-face {
   font-family: "Apoc";
   font-weight: normal;
-  src: url(../fonts/Apoc-Apoc Weight Variable-Trial.otf) format('opentype');
+  src: url(../fonts/Apoc-Apoc Weight Variable-Trial.ttf) format('truetype');
 }
 
 @font-face {
   font-family: "PT Mono";
   font-weight: normal;
-  src: url(../fonts/PTMono-Regular.otf) format('opentype');
+  src: url(../fonts/PTMono-Regular.ttf) format('truetype');
 }
 
 body {

@@ -1,0 +1,290 @@
+@import "reset.css";
+
+@font-face {
+  font-family: "Apoc";
+  font-weight: normal;
+  src: url(../fonts/Apoc-Apoc Weight Variable-Trial.otf) format('opentype');
+}
+
+@font-face {
+  font-family: "PT Mono";
+  font-weight: normal;
+  src: url(../fonts/PTMono-Regular.otf) format('opentype');
+}
+
+body {
+  overflow-x: hidden;
+  width: 100%;
+  margin: 0;
+  cursor: default;
+}
+
+img {
+  /* background-size: cover; */
+  /* position: relative; */
+  /* max-width: 100%;
+  height: auto; */
+
+  max-width: 100%;
+    height: auto;
+}
+
+html {
+width: 100%;
+overflow-x: hidden;
+background-color: black;
+}
+
+h1 {
+font-family: "Apoc";
+font-size: 47px;
+color: white;
+
+position: absolute;
+left: 45.5%;
+top: 1%;
+}
+
+h2 {
+font-family: "Apoc";
+font-size: 27px;
+color: white;
+
+position: absolute;
+opacity: 1;
+}
+
+h2:hover {
+  opacity: 0.75;
+}
+
+h3 {
+font-family: "PT Mono";
+font-size: 20px;
+color: white;
+
+position: absolute;
+opacity: 1;
+}
+
+p {
+  color: white;
+  font-size: 28px;
+  position: absolute;
+
+}
+
+.wrapper {
+  position: relative;
+  width: 100%;
+  background: black;
+  overflow: hidden;
+}
+
+.sootnosheniye {
+  position: relative;
+  padding-bottom: 140.595238%;
+  background: black;
+}
+
+.content {
+  position: absolute;
+  top: 0; bottom: 0; left: 0; right: 0; padding: 0;
+  background: black;
+}
+
+/* IMAGES */
+
+.mainpgbgimg {
+width: 96%;
+margin-left: 2%;
+}
+
+.plakat1 {
+margin-top: 8.8%;
+margin-left: 7%;
+}
+
+.plakat2 {
+  margin-top: -28.3%;
+  margin-left: 41%;
+}
+
+.plakat3 {
+margin-top: -28.3%;
+margin-left: 74.2%;
+}
+
+.plakat4 {
+  margin-top: 9.5%;
+  margin-left: 7.2%;
+}
+
+.plakat5 {
+margin-top: -28%;
+margin-left: 41.1%;
+}
+
+.plakat6 {
+margin-top: -28%;
+margin-left: 74.3%;
+}
+
+.plakat1img{
+width: 20%
+}
+
+.plakat2img {
+width: 31.3%;
+}
+
+.plakat3img {
+width: 72.7%;
+}
+
+.plakat4img {
+width: 20%;
+}
+
+.plakat5img {
+width: 31.5%;
+}
+
+.plakat6img {
+width: 71.6%;
+}
+/* GRIDS? */
+
+.first_half {
+  position: relative;
+  width: 100%;
+  display: block;
+  border: 1px solid #000000;
+}
+
+.second_half {
+position: relative;
+width: 99.8%;
+height: 53.8%;
+top: -2.5%;
+display: block;
+border: 1px solid #000000;}
+
+.footer {
+border: 1px solid #000000;
+width: 100%;
+height: 2%;
+}
+
+.qvadrat {
+  width: 100%;
+  height: 100%;
+  background-color: white;
+}
+
+/* TEXT */
+
+.contacttxt {
+top: 10%;
+left: 14%;
+}
+
+.booktxt {
+top: 37.5%;
+left: 25.8%;
+}
+
+.prostranstvotxt {
+top: 54.7%;
+left: 16.5%;
+}
+
+.teamtxt {
+top: 21.2%;
+left: 41.2%;
+}
+
+.abouttxt {
+top: 33.7%;
+left: 53.5%;
+}
+
+.repertuartxt {
+top: 26.1%;
+left: 86.4%;
+}
+
+.raz {
+top: 6%;
+left: 3%;
+}
+
+.dva {
+  top: 55%;
+  left: 3%;
+}
+
+.tri, .cheture {
+  transform: rotate(90deg);
+}
+
+.tri {
+left: -4%;
+top: 55.2%;
+}
+
+.cheture {
+right: -4%;
+top: 55.3%;
+}
+
+.plakat1txt {
+top: 51.5%;
+left: 7%;
+}
+
+.plakat2txt {
+left: 41%;
+top: 51.5%;
+color: white;
+text-decoration: none;
+}
+
+.plakat2txt:hover {
+  color: #FF0000;
+  opacity: 0.75;
+}
+
+.plakat3txt {
+left: 74.2%;
+top: 51.5%;
+}
+
+.plakat4txt {
+left: 7.3%;
+top: 100%;
+}
+
+.plakat5txt {
+left: 41%;
+top: 100%;
+}
+
+.plakat6txt {
+left: 74.2%;
+top: 100%;
+}
+
+.veta {
+bottom: 0.6%;
+left: 7.2%;
+}
+
+.ha {
+bottom: 0.6%;
+left: 88%;
+}
+
+.veta, .ha {
+  color: black;
+}

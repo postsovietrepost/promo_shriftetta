@@ -4,7 +4,7 @@
 @font-face {
   font-family: "Apoc";
   font-weight: normal;
-  src: url(../fonts/Apoc-Apoc Weight Variable-Trial.ttf) format('truetype');
+  src: url('../fonts/Apoc-Apoc Weight Variable-Trial.ttf');
 }
 
 @font-face {

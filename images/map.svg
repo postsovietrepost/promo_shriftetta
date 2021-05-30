@@ -1,6 +1,6 @@
-<svg width="1287" height="585" viewBox="0 0 1287 585" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-<rect width="1287" height="585" fill="url(#pattern0)"/>
-<path d="M676.839 124L647.806 201.586L580.065 158.483L618.774 218.828L522 253.31H628.452L580.065 339.517L647.806 287.793L686.516 374V287.793L783.29 339.517L715.548 270.552L822 253.31L725.226 244.69L773.613 184.345L696.194 210.207L676.839 124Z" fill="#8F3483"/>
+<svg width="6319" height="2872" viewBox="0 0 6319 2872" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<rect width="6318.4" height="2872" fill="url(#pattern0)"/>
+<path d="M3322.87 608.766L3180.34 989.667L2847.77 778.055L3037.81 1074.31L2562.71 1243.6H3085.32L2847.77 1666.83L3180.34 1412.89L3370.38 1836.12V1412.89L3845.49 1666.83L3512.91 1328.25L4035.53 1243.6L3560.42 1201.28L3797.98 905.023L3417.89 1031.99L3322.87 608.766Z" fill="#8F3483"/>
 <defs>
 <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
 <use xlink:href="#image0" transform="translate(0 -0.153636) scale(0.000781861 0.00172009)"/>

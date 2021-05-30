@@ -14,18 +14,33 @@
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <style media="screen">
+      
+      ::-webkit-scrollbar {
+          width: 4px;
+          background-color: white;
+          height: 5px;
+      }
+      ::-webkit-scrollbar-thumb {
+          background-color: red;
+          border-radius: 3px;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+          background-color: #890000;
+      }
 
 body {
   width: 100%;
   overflow-x: hidden;
   margin: 0;
   cursor: default;
+  scroll-behavior: smooth;
 }
 
 html {
   width: 100%;
   overflow-x: hidden;
   background-color: black;
+  scroll-behavior: smooth;
 }
 
 img {
@@ -65,7 +80,7 @@ img {
         </div>
         <p class="tire1_r">-----------------------------------------------------------------------------------------------------------------------------------</p>
         <p class="tire2_r">-----------------------------------------------------------------------------------------------------------------------------------</p>
-        <p class="tire3_r">-------------------------------------------------------------------------</p>
+        <p class="tire3_r">-----------------------------------------------------------------------------</p>
 
 
         <h1 class="premiertxt">Премьеры</h1>
@@ -84,14 +99,15 @@ img {
 
 <h3 class="number2txt">02</h3>
 <h3 class="geroitxt">Герой-любовник</h3>
-<h3 class="tickets1txt">Билеты</h3>
+<h3 class="tickets1txt"> <a class="tickets1txt" href="../pages/geroi.html"">Билеты</a></h3>
+
 </div>
 
 <div class="second_third_r">
 
   <p class="tire4_r">-----------------------------------------------------------------------------------------------------------------------------------</p>
   <p class="tire5_r">-----------------------------------------------------------------------------------------------------------------------------------</p>
-  <p class="tire6_r">------------------------------------------------------------</p>
+  <p class="tire6_r">-----------------------------------------------------------------------------</p>
 
   <h1 class="actualtxt">Актуальное</h1>
 
@@ -101,7 +117,8 @@ img {
 
   <h3 class="number3txt">03</h3>
   <h3 class="cursnatxt">Курс на любовь</h3>
-  <h3 class="tickets2txt">Билеты</h3>
+  <h3 class="tickets2txt"><a class="tickets2txt" href="../pages/cursnalove.html">Билеты</a></h3>
+
 
   <div class="repertuar4">
     <img class="repertuar4img" src="../images/repertuar4.svg" alt="">
@@ -117,7 +134,8 @@ img {
 
   <p class="tire7_r">-----------------------------------------------------------------------------------------------------------------------------------</p>
   <p class="tire8_r">-----------------------------------------------------------------------------------------------------------------------------------</p>
-  <p class="tire9_r">------------------------------------------------------------</p>
+  <p class="tire9_r">-----------------------------------------------------------------------------</p>
+  <p class="tire10_r">-----------------------------------------------------------------------------------------------------------------------------------</p>
 
   <h1 class="archivetxt">Архив</h1>
 
@@ -128,15 +146,15 @@ img {
 
   <h3 class="number5txt">05</h3>
   <h3 class="shrifttxt">Шрифтовый сад</h3>
-  <h3 class="tickets3txt">Билеты</h3>
+  <h3 class="tickets3txt"><a class="tickets3txt" href="../pages/shriftsad.html">Билеты</a></h3>
 
   <div class="repertuar6">
     <img class="repertuar6img" src="../images/repertuar6.svg" alt="">
   </div>
 
   <h3 class="number6txt">06</h3>
-  <h3 class="ukrstxt">Шрифтовый сад</h3>
-  <h3 class="soon3txt">Билеты</h3>
+  <h3 class="ukrstxt">Укрощение строптивого</h3>
+  <h3 class="soon3txt">Скоро</h3>
 
 </div>
 

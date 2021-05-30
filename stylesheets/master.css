@@ -18,6 +18,7 @@ body {
   width: 100%;
   margin: 0;
   cursor: default;
+  scroll-behavior: smooth;
 }
 
 img {
@@ -34,6 +35,7 @@ html {
 width: 100%;
 overflow-x: hidden;
 background-color: black;
+scroll-behavior: smooth;
 }
 
 h1 {
@@ -190,7 +192,7 @@ height: 2%;
 cursor: pointer;
 }
 
-.contacttxt:hover, .booktxt:hover, .prostranstvotxt:hover, .teamtxt:hover, .abouttxt:hover, .repertuartxt:hover, .plakat2txt:hover, .veta:hover {
+.contacttxt:hover, .booktxt:hover, .prostranstvotxt:hover, .teamtxt:hover, .abouttxt:hover, .repertuartxt:hover, .plakat2txt:hover, .veta_r:hover {
 opacity: 0.75;
 }
 
@@ -291,7 +293,7 @@ color: black;
 text-decoration: none;
 }
 
-.veta:hover, .veta_contacts:hover, .veta_r {
+.veta:hover, .veta_contacts:hover{
 opacity: 0.75;
 }
 
@@ -485,7 +487,7 @@ top: 30%;
 
 .third_third_r {
 height: 32.3%;
-border: 1px solid white;
+border: 1px solid black;
 top: 60%;
 }
 
@@ -499,105 +501,117 @@ background-color: white;
 /* TEXT */
 
 .premiertxt {
-top: 6.6%;
+top: 7.2%;
 left: 44%;
 }
 
 .actualtxt {
-top: 36%;
+top: 37.7%;
+left: 43.6%;
 }
 
 .archivetxt {
-  top: 70%;
+    top: 68.3%;
+left: 46.3%;
 }
 
 .number1txt {
-top: 11%;
+top: 12.3%;
 left: 11%;
 }
 
 .nochtxt {
-top: 31%;
+top: 34%;
 left: 11%;
 }
 
 .soon1txt {
-top: 31%;
+top: 34%;
 left: 39%;
 }
 
 .number2txt {
-  top: 11%;
+top: 12.3%;
 left: 56%;
 }
 
 .geroitxt {
-  top: 31%;
+  top: 34%;
   left: 56%;
 }
 
 .tickets1txt {
-  top: 31%;
+top: 34%;
 left: 84%;
 }
 
+.tickets1txt:hover, .tickets2txt:hover, .tickets3txt:hover{
+color: #FF0000;
+opacity: 0.75;
+}
+
+.tickets1txt, .tickets2txt, .tickets3txt {
+color: white;
+text-decoration: none;
+}
+
 .number3txt {
-  top: 40%;
-  left: 20%;
+    top: 43.2%;
+  left: 11%;
 }
 
 .cursnatxt {
-top: 43%;
-left: 20%;
+    top: 64.5%;
+left: 11%;
 }
 
 .tickets2txt {
-top: 43%;
-left: 33%;
+    top: 64.5%;
+left: 39%;
 }
 
 .number4txt {
-  top: 40%;
-  left: 60%;
+    top: 43.2%;
+  left: 56%;
 }
 
 .rocktxt {
-  top: 43%;
-  left: 68%;
+    top: 64.5%;
+  left: 56%;
 }
 
 .soon2txt {
-top: 43%;
-left: 63%;
+    top: 64.5%;
+left: 84%;
 }
 
 .number5txt {
-top: 70%;
-left: 20%;
+top: 73%;
+left: 11%;
 }
 
 .shrifttxt {
-top: 70%;
-left: 30%;
+top: 95.4%;
+left: 11%;
 }
 
 .tickets3txt {
-top: 70%;
+top: 95.4%;
 left: 40%;
 }
 
 .number6txt {
-top: 70%;
-left: 70%;
+    top: 73%;
+left: 55.2%;
 }
 
 .ukrstxt {
-top: 70%;
-left: 80%;
+top: 95.4%;
+left: 55.2%;
 }
 
 .soon3txt {
-top: 70%;
+top: 95.4%;
 left: 85%;
 }
 
@@ -618,50 +632,55 @@ bottom: 0.5%;
 
 .tire1_r {
 left: 9.5%;
-top: 4.7%;
+    top: 5.5%;
 }
 
 .tire2_r {
 left: 9.5%;
-top: 8.7%;
+top: 9.2%;
 }
 
 .tire3_r {
-left: 27.5%;
-top: 21.3%;
+left: 26.4%;
+top: 22.7%;
 }
 
 .tire4_r {
 left: 9.5%;
-top: 33.7%;
+    top: 36%;
 }
 
 .tire5_r {
 left: 9.5%;
-top: 46.7%;
+    top: 39.7%;
 }
 
 .tire6_r {
-left: 29.5%;
-top: 46.7%;
+  left: 26.4%;
+  top: 53.2%;
 }
 
 .tire7_r {
 left: 9.5%;
-top: 80.7%;
+top: 66.6%;
 }
 
 .tire8_r {
 left: 9.5%;
-top: 82.7%;
+    top: 70.3%;
 }
 
 .tire9_r {
-left: 29.5%;
-top: 84.7%;
+  left: 26.4%;
+    top: 83.8%;
 }
 
-.tire1_r, .tire2_r, .tire3_r, .tire4_r, .tire5_r, .tire6_r, .tire7_r, .tire8_r, .tire9_r {
+.tire10_r {
+left: 9.5%;
+    top: 97%;
+}
+
+.tire1_r, .tire2_r, .tire3_r, .tire4_r, .tire5_r, .tire6_r, .tire7_r, .tire8_r, .tire9_r, .tire10_r {
   font-size: 33px;
 }
 
@@ -681,7 +700,7 @@ width: 17%;
 }
 
 .repertuar1 {
-margin-top: 24%;
+margin-top: 28.1%;
 margin-left: 11%;
 }
 
@@ -699,39 +718,39 @@ width: 73%;
 }
 
 .repertuar3 {
-margin-top: 40.8%;
-margin-left: 10%;
+margin-top: 23.5%;
+margin-left: 11%;
 }
 
 .repertuar3img{
-width: 20%
+width: 36.2%;
 }
 
 .repertuar4 {
-margin-top: -14.2%;
-margin-left: 40%;
+margin-top: -30.1%;
+margin-left: 55.9%;
 }
 
 .repertuar4img{
-width: 20%
+width: 73.4%
 }
 
 .repertuar5 {
-margin-top: 20.8%;
-margin-left: 4%;
+margin-top: 18%;
+margin-left: 11%;
 }
 
 .repertuar5img{
-width: 20%
+width: 37.5%;
 }
 
 .repertuar6 {
-margin-top: -17.2%;
-margin-left: 69%;
+margin-top: -30.76%;
+margin-left: 55%;
 }
 
 .repertuar6img{
-width: 85%
+width: 74.5%;
 }
 
 .tickets1txt:hover, .tickets2txt:hover, .tickets3txt:hover {
@@ -740,6 +759,12 @@ width: 85%
 }
 
 /* RESPONSIVE */
+
+@media all and (max-width: 1440px) and (min-width: 568px){
+.tire1_r, .tire2_r, .tire3_r, .tire4_r, .tire5_r, .tire6_r, .tire7_r, .tire8_r, .tire9_r, .tire10_r {font-size: 27px;}
+h3 {font-size: 15px;}
+h2 {font-size: 19px;}
+}
 
 @media all and (min-width: 568px){
 .burger2_r {display:none;}

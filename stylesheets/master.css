@@ -215,11 +215,11 @@ height: 2%;
 
 /* TEXT */
 
-.contacttxt, .booktxt, .prostranstvotxt, .teamtxt, .abouttxt, .repertuartxt, .plakat2txt, .veta, .tickets1txt, .tickets2txt, .tickets3txt, .veta_a, .veta_t {
+.contacttxt, .booktxt, .prostranstvotxt, .teamtxt, .abouttxt, .repertuartxt, .plakat2txt, .veta, .tickets1txt, .tickets2txt, .tickets3txt, .veta_a, .veta_t, .veta_b, {
 cursor: pointer;
 }
 
-.contacttxt:hover, .booktxt:hover, .prostranstvotxt:hover, .teamtxt:hover, .abouttxt:hover, .repertuartxt:hover, .plakat2txt:hover, .veta_r:hover, .veta_a:hover, .veta_t:hover {
+.contacttxt:hover, .booktxt:hover, .prostranstvotxt:hover, .teamtxt:hover, .abouttxt:hover, .repertuartxt:hover, .plakat2txt:hover, .veta_r:hover, .veta_a:hover, .veta_t:hover, .veta_b:hover {
 opacity: 0.75;
 }
 
@@ -1255,4 +1255,337 @@ border-radius: 50%;
 
 @media all and (min-width: 568px){
 .burger2_t {display:none;}
+}
+
+/* BOOK */
+
+/* GRID? */
+
+.first_third_b {
+height: 18%;
+border: 1px solid white;
+}
+
+.second_third_b {
+  height: 36%;
+  border: 1px solid white;
+  top: 25%;
+}
+
+.third_third_b {
+height: 45.1%;
+border: 1px solid white;
+top: 50%;
+}
+
+.footer_b {
+width: 100%;
+height: 3%;
+margin-top: -0.5%;
+background-color: white;
+}
+
+/* TEXT */
+
+.izdatelstvo {
+top: 10%;
+left: 20%;
+}
+
+.moscow {
+  top: 25%;
+  left: 25%;
+}
+
+.bookabout {
+  top: 30%;
+  left: 25%;
+}
+
+.firstissue {
+  top: 40%;
+  left: 25%;
+}
+
+.readfull {
+top: 50%;
+left: 40%;
+text-decoration: none;
+}
+
+.readfull:hover {
+  color: #FF0000;
+  opacity: 0.75;
+}
+
+.izdatelstvo, .moscow, .bookabout, .firstissue, .readfull {
+  color: black;
+}
+
+.tire1_b {
+  left: 9.3%;
+top: 2.5%;
+}
+
+.tire2_b {
+left: 9.3%;
+top: 17.4%;
+}
+
+.tire3_b {
+left: 9.3%;
+top: 51.3%;
+}
+
+.tire4_b {
+left: -34.7%;
+top: 74.6%;
+}
+
+.tire5_b {
+left: 26.3%;
+top: 66.3%;
+}
+
+.tire4_b, .tire5_b {
+  transform: rotate(90deg);
+}
+
+.veta_b {
+left: 9%;
+color: black;
+text-decoration: none;
+}
+
+.ha_b {
+left: 85.5%;
+}
+
+.veta_b, .ha_b {
+color: black;
+bottom: 0.3%;
+}
+
+/* IMAGES */
+
+.book1row {
+  margin-left: 9.3%;
+  margin-top: 6.1%;
+}
+
+.book1row_img {
+  position: absolute;
+  width: 81.3%;
+}
+
+.book2row {
+  margin-left: 9.3%;
+  margin-top: 21.1%;
+}
+
+.book2row_img {
+  position: absolute;
+  width: 81.3%;
+}
+
+.book3row {
+  margin-left: 9.3%;
+  margin-top: 36.1%;
+}
+
+.book3row_img {
+  position: absolute;
+  width: 81.3%;
+}
+
+.book4row {
+  margin-left: 9.3%;
+  margin-top: 51.1%;
+}
+
+.book4row_img {
+  position: absolute;
+  width: 81.3%;
+}
+
+.book5row {
+  margin-left: 9.3%;
+  margin-top: 66.1%;
+}
+
+.book5row_img {
+  position: absolute;
+  width: 81.3%;
+}
+
+.book6row {
+  margin-left: 9.3%;
+  margin-top: 81.1%;
+}
+
+.book6row_img {
+  position: absolute;
+  width: 81.3%;
+}
+
+.bookstar1 {
+  margin-left: 9.3%;
+  margin-top: -0.9%;
+}
+
+.bookstar1_img {
+  position: absolute;
+  width: 16%;
+}
+
+.bookstar2 {
+  margin-left: 43%;
+  margin-top: 10.9%;
+}
+
+.bookstar2_img {
+  position: absolute;
+  width: 16%;
+}
+
+.bookstar3 {
+margin-left: 73%;
+margin-top: 70.9%;
+}
+
+.bookstar3_img {
+  position: absolute;
+  width: 16%;
+}
+
+.bookstar4 {
+  margin-left: 11%;
+  margin-top: 119.9%;
+}
+
+.bookstar4_img {
+  position: absolute;
+  width: 16%;
+}
+
+.furniture1 {
+  margin-left: 33.3%;
+  margin-top: -14.9%;
+}
+
+.furniture1_img {
+  position: absolute;
+  width: 34%;
+}
+
+.furniture2 {
+  margin-left: 61.3%;
+  margin-top: 24.9%;
+}
+
+.furniture2_img {
+  position: absolute;
+  width: 34%;
+}
+
+.furniture3 {
+  margin-left: 0.3%;
+  margin-top: 55.9%;
+}
+
+.furniture3_img {
+  position: absolute;
+  width: 34%;
+}
+
+.furniture4 {
+  margin-left: 33.3%;
+    margin-top: 107.9%;
+}
+
+.furniture4_img {
+  position: absolute;
+  width: 34%;
+}
+
+.book1 {
+  margin-left: 70.3%;
+  margin-top: 11.1%;
+}
+
+.book1_img {
+  position: absolute;
+  width: 18.3%;
+}
+
+.book2 {
+  margin-left: 8.3%;
+  margin-top: 41.1%;
+}
+
+.book2_img {
+  position: absolute;
+  width: 18.3%;
+}
+
+.book3 {
+  margin-left: 42%;
+  margin-top: 70.1%;
+}
+
+.book3_img {
+  position: absolute;
+  width: 18.3%;
+}
+
+.book4 {
+margin-left: 71%;
+margin-top: 119.1%;
+}
+
+.book4_img {
+  position: absolute;
+  width: 18.3%;
+}
+
+.qartochka {
+position: absolute;
+width: 71%;
+height: 12.5%;
+left: 14%;
+top: 4%;
+background: #FFFFFF;
+}
+
+.circle_qartochka1, .circle_qartochka2 {
+width: 4.8%;
+height: 9.2%;
+background: black;
+box-sizing: border-box;
+border-radius: 50%;
+}
+
+.circle_qartochka1 {
+  margin-left: 10.5%;
+  margin-top: 7.3%;
+}
+
+.circle_qartochka2 {
+  margin-left: 30.5%;
+  margin-top: 7.3%;
+}
+
+.burger_b{
+margin-left: 93%;
+margin-top: 2%;
+}
+
+.burger1_b{
+width: 17%;
+}
+
+/* RESPONSIVE */
+
+@media all and (min-width: 568px){
+.burger2_b {display:none;}
 }

@@ -1002,24 +1002,24 @@ transform: rotate(4deg);
 
 .first_quarter_t {
 height: 23%;
-border: 1px solid white;
+border: 1px solid black;
 }
 
 .second_quarter_t {
   height: 25%;
-  border: 1px solid white;
+  border: 1px solid black;
   top: 25%;
 }
 
 .third_quarter_t {
 height: 25%;
-border: 1px solid white;
+border: 1px solid black;
 top: 50%;
 }
 
 .fourth_quarter_t {
 height: 25%;
-border: 1px solid white;
+border: 1px solid black;
 top: 75%;
 }
 
@@ -1036,63 +1036,63 @@ background-color: white;
 }
 
 .shtxt {
-left: 10%;
-top: 20%;
+left: 16.5%;
+top: 19.5%;
 }
 
 .btxt {
-left: 20%;
-top: 20%;
+left: 47%;
+top: 19.5%;
 }
 
 .atxt {
-left: 40%;
-top: 20%;
+left: 79%;
+top: 19.5%;
 }
 
 .itxt {
-left: 20%;
-top: 40%;
+left: 13.5%;
+top: 44.5%;
 }
 
 .ttxt {
-left: 40%;
-top: 40%;
+left: 44%;
+top: 44.5%;
 }
 
 .etxt {
-left: 60%;
-top: 40%;
+left: 79.3%;
+top: 44.5%;
 }
 
 .otxt {
-left: 20%;
-top: 60%;
+left: 16.5%;
+top: 69%;
 }
 
 .ftxt {
-left: 40%;
-top: 60%;
+left: 45%;
+top: 69%;
 }
 
 .gtxt {
-left: 60%;
-top: 60%;
+left: 76.3%;
+top: 69%;
 }
 
 .jtxt {
-left: 20%;
-top: 80%;
+left: 12%;
+top: 94%;
 }
 
 .ztxt {
-left: 40%;
-top: 80%;
+left: 47.5%;
+top: 94%;
 }
 
 .question_t {
-top: 79%;
-left: 80%;
+top: 83.4%;
+left: 75%;
 color: black;
 }
 
@@ -1123,120 +1123,128 @@ width: 17%;
 }
 
 .team1 {
-  margin-left: 10%;
-  margin-top: 10%;
+  margin-left: 8.5%;
+  margin-top: 4.8%;
 }
 
 .team1_img {
   position: absolute;
-  width: 18%;
+  width: 21%;
 }
 
 .team2 {
-  margin-left: 30%;
-  margin-top: 10%;
+    margin-left: 39.4%;
+  margin-top: -0.1%;
 }
 
 .team2_img {
   position: absolute;
-  width: 18%;
+  width: 21%;
+  height: 14.2%;
 }
 
 .team3 {
-  margin-left: 49%;
-  margin-top: -1.5%;
+  margin-left: 70.5%;
+margin-top: -0.1%;
 }
 
 .team3_img {
   position: absolute;
-      width: 19.3%;
+  width: 23%;
+  height: 14.3%;
 }
 
 .team4 {
-  margin-left: 20%;
-  margin-top: 20%;
+margin-left: 8.5%;
+  margin-top: 7.4%;
 }
 
 .team4_img {
   position: absolute;
-  width: 10%;
+width: 21%;
 }
 
 .team5 {
-  margin-left: 40%;
-  margin-top: 20%;
+margin-left: 39.4%;
+  margin-top: 7.4%;
 }
 
 .team5_img {
   position: absolute;
-  width: 10%;
+  width: 23.9%;
+      height: 17.1%;
 }
 
 .team6 {
-  margin-left: 80%;
-  margin-top: 20%;
+  margin-left: 70.5%;
+  margin-top: 7.4%;
 }
 
 .team6_img {
   position: absolute;
-  width: 10%;
+  width: 23%;
+    height: 14%;
 }
 
 .team7 {
-  margin-left: 20%;
-  margin-top: 20%;
+margin-left: 8.5%;
+margin-top: 7.4%;
 }
 
 .team7_img {
   position: absolute;
-  width: 10%;
+  width: 21%;
 }
 
 .team8 {
-  margin-left: 40%;
-  margin-top: 20%;
+  margin-left: 39.4%;
+  margin-top: -1.2%;
 }
 
 .team8_img {
   position: absolute;
-  width: 10%;
+  width: 22.8%;
+  height: 17%;
 }
 
 .team9 {
-  margin-left: 80%;
-  margin-top: 20%;
+  margin-left: 68.55%;
+  margin-top: 8.6%;
 }
 
 .team9_img {
   position: absolute;
-  width: 10%;
+  width: 24.9%;
+  height: 14.4%;
 }
 
 .team10 {
-  margin-left: 20%;
-  margin-top: 10%;
+  margin-left: 7.9%;
+  margin-top: 7.3%;
 }
 
 .team10_img {
   position: absolute;
-  width: 10%;
+  width: 23.6%;
+  height: 15.2%;
 }
 
 .team11 {
-  margin-left: 40%;
-  margin-top: 10%;
+  margin-left: 35.5%;
+  margin-top: 7.1%;
 }
 
 .team11_img {
   position: absolute;
-  width: 10%;
+  width: 32.3%;
+  height: 20.5%;
 }
 
 .circle_question {
-width: 10%;
-height: 27%;
-margin-left: 78%;
-margin-top: 20%;
+  width: 20.8%;
+  height: 55.2%;
+  margin-left: 70.5%;
+  margin-top: 7.3%;
 background: #FFFFFF;
 border: 1px solid #FFFFFF;
 box-sizing: border-box;

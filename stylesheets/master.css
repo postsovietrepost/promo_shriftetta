@@ -215,11 +215,11 @@ height: 2%;
 
 /* TEXT */
 
-.contacttxt, .booktxt, .prostranstvotxt, .teamtxt, .abouttxt, .repertuartxt, .plakat2txt, .veta, .tickets1txt, .tickets2txt, .tickets3txt, .veta_a, .veta_t, .veta_b, {
+.contacttxt, .booktxt, .prostranstvotxt, .teamtxt, .abouttxt, .repertuartxt, .plakat2txt, .veta, .tickets1txt, .tickets2txt, .tickets3txt, .veta_a, .veta_t, .veta_b, .veta_g {
 cursor: pointer;
 }
 
-.contacttxt:hover, .booktxt:hover, .prostranstvotxt:hover, .teamtxt:hover, .abouttxt:hover, .repertuartxt:hover, .plakat2txt:hover, .veta_r:hover, .veta_a:hover, .veta_t:hover, .veta_b:hover {
+.contacttxt:hover, .booktxt:hover, .prostranstvotxt:hover, .teamtxt:hover, .abouttxt:hover, .repertuartxt:hover, .plakat2txt:hover, .veta_r:hover, .veta_a:hover, .veta_t:hover, .veta_b:hover, .veta_g:hover {
 opacity: 0.75;
 }
 
@@ -1263,18 +1263,18 @@ border-radius: 50%;
 
 .first_third_b {
 height: 18%;
-border: 1px solid white;
+border: 1px solid black;
 }
 
 .second_third_b {
   height: 36%;
-  border: 1px solid white;
+  border: 1px solid black;
   top: 25%;
 }
 
 .third_third_b {
 height: 45.1%;
-border: 1px solid white;
+border: 1px solid black;
 top: 50%;
 }
 
@@ -1288,28 +1288,28 @@ background-color: white;
 /* TEXT */
 
 .izdatelstvo {
-top: 10%;
-left: 20%;
+  top: 6.5%;
+  left: 51.7%;
 }
 
 .moscow {
-  top: 25%;
-  left: 25%;
+  top: 90.5%;
+      left: 51.7%;
 }
 
 .bookabout {
-  top: 30%;
-  left: 25%;
+top: 41%;
+left: 5%;
 }
 
 .firstissue {
-  top: 40%;
-  left: 25%;
+  top: 85%;
+  left: 5%;
 }
 
 .readfull {
-top: 50%;
-left: 40%;
+top: 64%;
+left: 77%;
 text-decoration: none;
 }
 
@@ -1334,21 +1334,81 @@ top: 17.4%;
 
 .tire3_b {
 left: 9.3%;
-top: 51.3%;
+top: 49.1%;
 }
 
 .tire4_b {
-left: -34.7%;
-top: 74.6%;
+left: -39.9%;
+    top: 74%;
 }
 
 .tire5_b {
-left: 26.3%;
-top: 66.3%;
+  left: -5.9%;
+  top: 74%;
 }
 
 .tire4_b, .tire5_b {
   transform: rotate(90deg);
+}
+
+.tire6_b {
+left: 9.3%;
+top: 61.5%;
+}
+
+.tire7_b {
+left: 9.3%;
+    top: 73.9%;
+}
+
+.tire8_b {
+left: 9.3%;
+top: 86.4%;
+}
+
+.tire9_b {
+  left: 0.5%;
+  top: 21.4%;
+}
+
+.number1_b {
+top: 50.8%;
+left: 36%;
+}
+
+.stool_b {
+top: 60%;
+left: 36%;
+}
+
+.number2_b {
+  top: 63%;
+      left: 70%;
+}
+
+.sofa_b {
+  top: 72.7%;
+      left: 70%;
+}
+
+.number3_b {
+top: 75.6%;
+left: 9.4%;
+}
+
+.table_b {
+  top: 85.2%;
+      left: 9.4%;
+}
+
+.number4_b {
+  top: 88.2%;
+  left: 36%;
+}
+
+.poof_b {
+  top: 97.5%;
+      left: 37%;
 }
 
 .veta_b {
@@ -1370,7 +1430,7 @@ bottom: 0.3%;
 
 .book1row {
   margin-left: 9.3%;
-  margin-top: 6.1%;
+  margin-top: 2.1%;
 }
 
 .book1row_img {
@@ -1380,7 +1440,7 @@ bottom: 0.3%;
 
 .book2row {
   margin-left: 9.3%;
-  margin-top: 21.1%;
+  margin-top: 17.1%;
 }
 
 .book2row_img {
@@ -1390,7 +1450,7 @@ bottom: 0.3%;
 
 .book3row {
   margin-left: 9.3%;
-  margin-top: 36.1%;
+  margin-top: 32.1%;
 }
 
 .book3row_img {
@@ -1400,7 +1460,7 @@ bottom: 0.3%;
 
 .book4row {
   margin-left: 9.3%;
-  margin-top: 51.1%;
+  margin-top: 47.1%;
 }
 
 .book4row_img {
@@ -1410,7 +1470,7 @@ bottom: 0.3%;
 
 .book5row {
   margin-left: 9.3%;
-  margin-top: 66.1%;
+  margin-top: 62.1%;
 }
 
 .book5row_img {
@@ -1420,7 +1480,7 @@ bottom: 0.3%;
 
 .book6row {
   margin-left: 9.3%;
-  margin-top: 81.1%;
+  margin-top: 77.1%;
 }
 
 .book6row_img {
@@ -1429,48 +1489,52 @@ bottom: 0.3%;
 }
 
 .bookstar1 {
-  margin-left: 9.3%;
-  margin-top: -0.9%;
+  margin-left: 13%;
+  margin-top: -3.9%;
 }
 
 .bookstar1_img {
   position: absolute;
-  width: 16%;
+  width: 13%;
 }
 
 .bookstar2 {
-  margin-left: 43%;
-  margin-top: 10.9%;
+  margin-left: 42%;
+  margin-top: -19.1%;
 }
 
 .bookstar2_img {
   position: absolute;
-  width: 16%;
+  width: 18%;
 }
 
 .bookstar3 {
-margin-left: 73%;
-margin-top: 70.9%;
+  margin-left: 72%;
+  margin-top: 88.9%;
 }
 
 .bookstar3_img {
   position: absolute;
-  width: 16%;
+  width: 17%;
 }
 
 .bookstar4 {
-  margin-left: 11%;
-  margin-top: 119.9%;
+  margin-left: 10.5%;
+  margin-top: 127.5%;
 }
 
 .bookstar4_img {
   position: absolute;
-  width: 16%;
+  width: 17%;
+}
+
+.bookstar1_img:hover, .bookstar2_img:hover, .bookstar3_img:hover, .bookstar4_img:hover {
+  transform: rotate(90deg);
 }
 
 .furniture1 {
-  margin-left: 33.3%;
-  margin-top: -14.9%;
+  margin-left: 32.3%;
+  margin-top: -19.9%;
 }
 
 .furniture1_img {
@@ -1479,100 +1543,102 @@ margin-top: 70.9%;
 }
 
 .furniture2 {
-  margin-left: 61.3%;
-  margin-top: 24.9%;
+  margin-left: 64.3%;
+      margin-top: 39.9%;
 }
 
 .furniture2_img {
   position: absolute;
-  width: 34%;
+  width: 30%;
 }
 
 .furniture3 {
-  margin-left: 0.3%;
-  margin-top: 55.9%;
+  margin-left: 4.3%;
+  margin-top: 79.9%;
 }
 
 .furniture3_img {
   position: absolute;
-  width: 34%;
+  width: 26%;
 }
 
 .furniture4 {
-  margin-left: 33.3%;
-    margin-top: 107.9%;
+  margin-left: 34%;
+      margin-top: -34%;
 }
 
 .furniture4_img {
   position: absolute;
-  width: 34%;
+  width: 32%;
 }
 
 .book1 {
-  margin-left: 70.3%;
-  margin-top: 11.1%;
+  margin-left: 73.3%;
+  margin-top: 14.1%;
 }
 
 .book1_img {
   position: absolute;
-  width: 18.3%;
+  width: 17.3%;
 }
 
 .book2 {
-  margin-left: 8.3%;
-  margin-top: 41.1%;
+  margin-left: 9.3%;
+  margin-top: 52.4%;
 }
 
 .book2_img {
   position: absolute;
-  width: 18.3%;
+  width: 17.3%;
 }
 
 .book3 {
-  margin-left: 42%;
-  margin-top: 70.1%;
+  margin-left: 41.4%;
+      margin-top: 90.1%;
 }
 
 .book3_img {
   position: absolute;
-  width: 18.3%;
+  width: 17.3%;
 }
 
 .book4 {
-margin-left: 71%;
-margin-top: 119.1%;
+  margin-left: 73.3%;
+  margin-top: 141.3%;
 }
 
 .book4_img {
   position: absolute;
-  width: 18.3%;
+  width: 17.3%;
 }
 
 .qartochka {
 position: absolute;
 width: 71%;
 height: 12.5%;
-left: 14%;
+left: 14.4%;
 top: 4%;
 background: #FFFFFF;
 }
 
 .circle_qartochka1, .circle_qartochka2 {
-width: 4.8%;
-height: 9.2%;
 background: black;
 box-sizing: border-box;
 border-radius: 50%;
 }
 
 .circle_qartochka1 {
-  margin-left: 10.5%;
-  margin-top: 7.3%;
+  width: 3.8%;
+  height: 7.2%;
+  margin-left: 48.3%;
+  margin-top: 2.3%;
 }
 
 .circle_qartochka2 {
-  margin-left: 30.5%;
-  margin-top: 7.3%;
+  width: 3.8%;
+  height: 7.2%;
+  margin-left: 48.3%;
+  margin-top: 40.3%;
 }
 
 .burger_b{
@@ -1586,6 +1652,315 @@ width: 17%;
 
 /* RESPONSIVE */
 
+@media all and (max-width: 1920px){
+.tire9_b {color: black;}
+}
+
 @media all and (min-width: 568px){
 .burger2_b {display:none;}
+}
+
+/* GEROI */
+
+/* GRID? */
+
+.first_third_g {
+height: 38.7%;
+border: 1px solid white;
+}
+
+.second_third_g {
+  height: 20%;
+  border: 1px solid white;
+  top: 25%;
+}
+
+.third_third_g {
+height: 40%;
+border: 1px solid white;
+top: 50%;
+}
+
+.footer_g {
+width: 100%;
+height: 3%;
+margin-top: -0.5%;
+background-color: white;
+}
+
+/* TEXT */
+
+.tire1_g {
+left: 9.3%;
+top: 9.1%;
+}
+
+.tire2_g {
+left: 9.3%;
+top: 29.1%;
+}
+
+.tire3_g {
+left: 9.3%;
+top: 32.1%;
+}
+
+.tire4_g {
+left: 9.3%;
+top: 32.1%;
+}
+
+.tire5_g {
+left: 19.3%;
+top: 32.1%;
+}
+
+.tire6_g {
+left: 9.3%;
+top: 50%;
+}
+
+.tire7_g {
+left: 9.3%;
+top: 56%;
+}
+
+.tire8_g {
+left: 9.3%;
+top: 62%;
+}
+
+.tire9_g {
+left: 9.3%;
+top: 54%;
+}
+
+.tire10_g {
+left: 9.3%;
+top: 74%;
+}
+
+.tire5_g, .tire4_g, .tire9_g {
+  transform: rotate(90deg);
+}
+
+.agetxt {
+  left: 4%;
+  top: 2%;
+}
+
+.antract {
+  left: 80%;
+  top: 2%;
+}
+
+.geroihead {
+  top: 2%;
+  left: 50%;
+}
+
+.geroiabout {
+left: 9.3%;
+top: 25.1%;
+}
+
+.director {
+  top: 30%;
+  left: 20%;
+}
+
+.directorwho {
+  top: 30%;
+  left: 25%;
+}
+
+.actors {
+  top: 30%;
+  left: 30%;
+}
+
+.actorswho {
+  top: 30%;
+  left: 35%;
+}
+
+.writer {
+  top: 30%;
+  left: 40%;
+}
+
+.writerwho {
+  top: 30%;
+  left: 45%;
+}
+
+.otziv {
+top: 50%;
+left: 30%;
+}
+
+.antonina {
+  top: 40%;
+  left: 30%;
+}
+
+.antoninatxt {
+  top: 40%;
+  left: 50%;
+}
+
+.yaroslav {
+  top: 50%;
+  left: 30%;
+}
+
+.yaroslavtxt {
+  top: 55%;
+  left: 30%;
+}
+
+.stas {
+  left: 60%;
+  top: 40%;
+}
+
+.stastxt {
+  left: 60%;
+  top: 45%;
+}
+
+.wearehappy {
+  top: 55%;
+  left: 70%;
+}
+
+.date1qvadratbig {
+top: 50%;
+}
+
+.date2qvadratbig {
+top: 60%;
+}
+
+.date3qvadratbig {
+top: 70%;
+}
+
+.date4qvadratbig {
+top: 80%;
+}
+
+.date1qvadratbig, .date2qvadratbig, .date3qvadratbig, .date4qvadratbig {
+position: relative;
+width: 81%;
+height: 8%;
+left: 9.3%;
+border: 1px solid #FFFFFF;
+box-sizing: border-box;
+}
+
+.date1qvadrat {
+left: -0.1%;
+top: -0.4%;
+height: 101%;
+}
+
+.date2qvadrat {
+  left: -0.1%;
+    top: -1%;
+    height: 102%;
+}
+
+.date3qvadrat {
+  left: -0.1%;
+  top: -0.5%;
+  height: 101%;
+}
+
+.date4qvadrat {
+  left: -0.1%;
+  top: -0.5%;
+  height: 102%;
+
+}
+
+.date1qvadrat, .date2qvadrat, .date3qvadrat, .date4qvadrat {
+position: relative;
+width: 22%;
+border: 1px solid #FFFFFF;
+box-sizing: border-box;
+}
+
+.veta_g {
+left: 9%;
+color: black;
+text-decoration: none;
+}
+
+.ha_g {
+left: 85.5%;
+}
+
+.veta_g, .ha_g {
+color: black;
+bottom: 0.4%;
+}
+
+/* IMAGES */
+
+.geroi {
+  margin-left: 9.3%;
+  margin-top: 8.4%;
+}
+
+.geroi_img {
+  position: absolute;
+  width: 70.3%;
+}
+
+.antoninarate {
+  margin-left: 50%;
+  margin-top: 45%;
+}
+
+.antoninarate_img {
+  width: 13%;
+}
+
+.yaroslavrate {
+  margin-left: 40%;
+    margin-top: 18%;
+}
+
+.yaroslavrate_img {
+  width: 13%;
+}
+
+.stasrate {
+  margin-left: 15%;
+  margin-top: -29%;
+}
+
+.stasrate_img {
+  width: 13%;
+}
+
+.cupitbilet {
+  top: 70%;
+  left: 20%;
+}
+
+.burger_g{
+margin-left: 93%;
+margin-top: 2%;
+}
+
+.burger1_g{
+width: 17%;
+}
+
+/* RESPONSIVE */
+
+@media all and (min-width: 568px){
+.burger2_g {display:none;}
 }

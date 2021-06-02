@@ -1666,18 +1666,18 @@ width: 17%;
 
 .first_third_g {
 height: 38.7%;
-border: 1px solid white;
+border: 1px solid black;
 }
 
 .second_third_g {
   height: 20%;
-  border: 1px solid white;
+  border: 1px solid black;
   top: 25%;
 }
 
 .third_third_g {
 height: 40%;
-border: 1px solid white;
+border: 1px solid black;
 top: 50%;
 }
 
@@ -1692,52 +1692,62 @@ background-color: white;
 
 .tire1_g {
 left: 9.3%;
-top: 9.1%;
+top: 6.5%;
 }
 
 .tire2_g {
 left: 9.3%;
-top: 29.1%;
+top: 32.6%;
 }
 
 .tire3_g {
 left: 9.3%;
-top: 32.1%;
+top: 42.5%;
 }
 
 .tire4_g {
-left: 9.3%;
-top: 32.1%;
+  left: 33%;
+      top: 40.6%;
 }
 
 .tire5_g {
-left: 19.3%;
-top: 32.1%;
+  left: 63.6%;
+      top: 40.6%;
 }
 
 .tire6_g {
 left: 9.3%;
-top: 50%;
+top: 49%;
 }
 
 .tire7_g {
 left: 9.3%;
-top: 56%;
+top: 55.8%;
 }
 
 .tire8_g {
 left: 9.3%;
-top: 62%;
+top: 62.8%;
 }
 
 .tire9_g {
-left: 9.3%;
-top: 54%;
+    left: 37.5%;
+      top: 56%;
 }
 
 .tire10_g {
 left: 9.3%;
-top: 74%;
+top: 69.4%;
+}
+
+.tire11_g {
+left: 9.3%;
+top: 95.3%;
+}
+
+.tire12_g {
+left: 9.3%;
+top: 38.6%;
 }
 
 .tire5_g, .tire4_g, .tire9_g {
@@ -1745,109 +1755,134 @@ top: 74%;
 }
 
 .agetxt {
-  left: 4%;
-  top: 2%;
+  left: 9.3%;
+  top: 4.5%;
 }
 
 .antract {
-  left: 80%;
-  top: 2%;
+  left: 78%;
+      top: 4.5%;
 }
 
 .geroihead {
-  top: 2%;
-  left: 50%;
+  top: 4%;
+      left: 40.5%;
 }
 
 .geroiabout {
 left: 9.3%;
-top: 25.1%;
+top: 34.3%;
 }
 
 .director {
-  top: 30%;
-  left: 20%;
+  top: 40.8%;
+      left: 9.3%;
 }
 
 .directorwho {
-  top: 30%;
-  left: 25%;
+  top: 40.8%;
+  left: 29.3%;
 }
 
 .actors {
-  top: 30%;
-  left: 30%;
+  top: 40.8%;
+  left: 37.4%;
 }
 
 .actorswho {
-  top: 30%;
-  left: 35%;
+  top: 40.8%;
+  left: 54.3%;
 }
 
 .writer {
-  top: 30%;
-  left: 40%;
+  top: 40.8%;
+  left: 68.4%;
 }
 
 .writerwho {
-  top: 30%;
-  left: 45%;
+  top: 40.8%;
+  left: 85.5%;
 }
 
 .otziv {
-top: 50%;
-left: 30%;
+  top: 45.85%;
+  left: 42%;
 }
 
 .antonina {
-  top: 40%;
-  left: 30%;
+  top: 50.9%;
+      left: 9.5%;
 }
 
 .antoninatxt {
-  top: 40%;
-  left: 50%;
+  top: 53.3%;
+      left: 9.3%;
 }
 
 .yaroslav {
-  top: 50%;
-  left: 30%;
+top: 57.9%;
+      left: 9.5%;
 }
 
 .yaroslavtxt {
-  top: 55%;
-  left: 30%;
+  top: 60.3%;
+      left: 9.3%;
 }
 
 .stas {
-  left: 60%;
-  top: 40%;
+left: 52.9%;
+  top: 50.9%;
 }
 
 .stastxt {
-  left: 60%;
-  top: 45%;
+  left: 52.9%;
+top: 53.3%;
 }
 
 .wearehappy {
-  top: 55%;
-  left: 70%;
+  top: 58.2%;
+  left: 52.9%;
+}
+
+.cupitbilet {
+  top: 66.1%;
+  left: 43%;
+}
+
+.date1 {
+  top: 2%;
+  left: 2%;
+}
+
+.date2 {
+  top: 2%;
+  left: 2%;
+}
+
+.date3 {
+}
+
+.date4 {
+}
+
+.date1, .date2, .date3, .date4 {
+  color: white;
 }
 
 .date1qvadratbig {
-top: 50%;
+top: 35%;
 }
 
 .date2qvadratbig {
-top: 60%;
+top: 41%;
 }
 
 .date3qvadratbig {
-top: 70%;
+top: 47%;
 }
 
 .date4qvadratbig {
-top: 80%;
+top: 53%;
 }
 
 .date1qvadratbig, .date2qvadratbig, .date3qvadratbig, .date4qvadratbig {
@@ -1861,27 +1896,26 @@ box-sizing: border-box;
 
 .date1qvadrat {
 left: -0.1%;
-top: -0.4%;
-height: 101%;
+top: -1%;
+    height: 102%;
 }
 
 .date2qvadrat {
   left: -0.1%;
     top: -1%;
-    height: 102%;
+height: 101.8%;
 }
 
 .date3qvadrat {
   left: -0.1%;
-  top: -0.5%;
-  height: 101%;
+  top: -1%;
+    height: 102.4%;
 }
 
 .date4qvadrat {
   left: -0.1%;
-  top: -0.5%;
-  height: 102%;
-
+  top: -0.6%;
+height: 101.5%;
 }
 
 .date1qvadrat, .date2qvadrat, .date3qvadrat, .date4qvadrat {
@@ -1889,6 +1923,73 @@ position: relative;
 width: 22%;
 border: 1px solid #FFFFFF;
 box-sizing: border-box;
+}
+
+.ticketqvadrat1 {
+  top: -103%;
+  left: 78.1%;
+  height: 102.2%;
+}
+
+.ticketqvadrat2 {
+margin-left: 78.1%;
+margin-top: -8.1%;
+height: 101.4%;
+width: 22%;
+}
+
+.ticketqvadrat3 {
+  margin-left: 78.1%;
+      margin-top: -8.1%;
+      height: 101%;
+}
+
+.ticketqvadrat4 {
+  margin-left: 78.1%;
+  margin-top: -8.05%;
+  height: 101.4%;
+}
+
+.ticketqvadrat1, .ticketqvadrat3, .ticketqvadrat4 {
+position: relative;
+width: 22%;
+box-sizing: border-box;
+}
+
+.ticketqvadrat1, .ticketqvadrat2 {
+  background-color: #C4C4C4;
+}
+
+.ticketqvadrat3, .ticketqvadrat4 {
+  background-color: white;
+}
+
+.ticketqvadrat3:hover, .ticketqvadrat4:hover {
+background-color:#FF0000;
+}
+
+.noticket1 {
+  top: 41%;
+      left: 83%;
+}
+
+.noticket2 {
+  top: 41%;
+      left: 83%;
+}
+
+.yesticket1 {
+  top: 41%;
+      left: 83%;
+}
+
+.yesticket2 {
+  top: 41%;
+      left: 83%;
+}
+
+.noticket1, .noticket2, .yesticket1, .yesticket2 {
+  color: black;
 }
 
 .veta_g {
@@ -1910,44 +2011,43 @@ bottom: 0.4%;
 
 .geroi {
   margin-left: 9.3%;
-  margin-top: 8.4%;
+  margin-top: 17%;
 }
 
 .geroi_img {
   position: absolute;
-  width: 70.3%;
+  width: 81%;
+height: 23%;
 }
 
 .antoninarate {
-  margin-left: 50%;
-  margin-top: 45%;
+  margin-left: 43%;
+      margin-top: 24.7%;
 }
 
 .antoninarate_img {
-  width: 13%;
+  width: 5%;
+  position: absolute;
 }
 
 .yaroslavrate {
-  margin-left: 40%;
-    margin-top: 18%;
+  margin-left: 43%;
+      margin-top: 37.9%;
 }
 
 .yaroslavrate_img {
-  width: 13%;
+  width: 3.77%;
+  position: absolute;
 }
 
 .stasrate {
-  margin-left: 15%;
-  margin-top: -29%;
+margin-left: 83.8%;
+margin-top: -13.2%;
 }
 
 .stasrate_img {
-  width: 13%;
-}
-
-.cupitbilet {
-  top: 70%;
-  left: 20%;
+  width: 6.4%;
+  position: absolute;
 }
 
 .burger_g{

@@ -72,6 +72,60 @@ p {
   white-space: nowrap;
 }
 
+button {
+  font-family: "Apoc";
+  font-size: 30px;
+  position: absolute;
+   z-index: 9999;
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  background: black;
+}
+
+.swal-title {
+  color: black;
+  font-family: "Apoc";
+  font-size: 35px;
+  left: 5px;
+  top: 8px;
+}
+
+.swal-modal {
+height: 230px;
+}
+
+.swal-button--confirm {
+  background-color: black !important;
+  left: -400px;
+  top: 27px;
+}
+
+.swal-button--confirm:hover {
+  background-color: #FF0000 !important;
+}
+
+.swal-button{
+background-color: black;
+}
+
+.swal-button__loader {
+  background-color: black;
+}
+
+.swal-button--cancel {
+  background-color: black;
+  color: white;
+    left: -120px;
+  top: 27px;
+}
+
+.swal-button--cancel:hover {
+  background-color: #FF0000 !important;
+}
+
 .wrapper {
   position: relative;
   width: 100%;
@@ -215,11 +269,13 @@ height: 2%;
 
 /* TEXT */
 
-.contacttxt, .booktxt, .prostranstvotxt, .teamtxt, .abouttxt, .repertuartxt, .plakat2txt, .veta, .tickets1txt, .tickets2txt, .tickets3txt, .veta_a, .veta_t, .veta_b, .veta_g, .ticketqvadrat3, .ticketqvadrat4, .veta_cn, .veta_ss {
-cursor: pointer;
-}
+.contacttxt, .booktxt, .prostranstvotxt, .teamtxt, .abouttxt, .repertuartxt, .plakat2txt, .veta, .tickets1txt, .tickets2txt, .tickets3txt, .veta_a, .veta_t, .veta_b, .veta_g, #ticketqvadrat3, .ticketqvadrat4, .veta_cn, .veta_ss, .ticketqvadrat2_cn, .ticketqvadrat1_cn, .ticketqvadrat3_cn, .ticketqvadrat4_cn, .ticketqvadrat2_ss, .ticketqvadrat3_ss
+{cursor: pointer;}
 
-.contacttxt:hover, .booktxt:hover, .prostranstvotxt:hover, .teamtxt:hover, .abouttxt:hover, .repertuartxt:hover, .plakat2txt:hover, .veta_r:hover, .veta_a:hover, .veta_t:hover, .veta_b:hover, .veta_g:hover, .veta_cn:hover, .veta_ss:hover {
+.ticketqvadrat4_ss, .veta_pr {
+  cursor: pointer;}
+
+.contacttxt:hover, .booktxt:hover, .prostranstvotxt:hover, .teamtxt:hover, .abouttxt:hover, .repertuartxt:hover, .plakat2txt:hover, .veta_r:hover, .veta_a:hover, .veta_t:hover, .veta_b:hover, .veta_g:hover, .veta_cn:hover, .veta_ss:hover, .veta_pr:hover {
 opacity: 0.75;
 }
 
@@ -1936,10 +1992,10 @@ height: 101.4%;
 width: 22%;
 }
 
-.ticketqvadrat3 {
+#ticketqvadrat3 {
   margin-left: 78.1%;
-  margin-top: -8.15%;
-      height: 102.5%;
+  bottom: 103.4%;
+  height: 102.4%;
 }
 
 .ticketqvadrat4 {
@@ -1948,7 +2004,7 @@ width: 22%;
   height: 101.4%;
 }
 
-.ticketqvadrat1, .ticketqvadrat2, .ticketqvadrat3, .ticketqvadrat4 {
+.ticketqvadrat1, .ticketqvadrat2, #ticketqvadrat3, .ticketqvadrat4 {
 position: relative;
 width: 22%;
 box-sizing: border-box;
@@ -1958,11 +2014,11 @@ box-sizing: border-box;
   background-color: #C4C4C4;
 }
 
-.ticketqvadrat3, .ticketqvadrat4, .ticketqvadrat1_cn, .ticketqvadrat2_cn, .ticketqvadrat3_cn, .ticketqvadrat4_cn {
+#ticketqvadrat3, .ticketqvadrat4, .ticketqvadrat1_cn, .ticketqvadrat2_cn, .ticketqvadrat3_cn, .ticketqvadrat4_cn, .ticketqvadrat2_ss, .ticketqvadrat3_ss, .ticketqvadrat4_ss {
   background-color: white;
 }
 
-.ticketqvadrat3:hover, .ticketqvadrat4:hover, .circle_question:hover, .ticketqvadrat1_cn:hover, .ticketqvadrat2_cn:hover, .ticketqvadrat3_cn:hover, .ticketqvadrat4_cn:hover {
+#ticketqvadrat3:hover, .ticketqvadrat4:hover, .circle_question:hover, .ticketqvadrat1_cn:hover, .ticketqvadrat2_cn:hover, .ticketqvadrat3_cn:hover, .ticketqvadrat4_cn:hover, .ticketqvadrat2_ss:hover, .ticketqvadrat3_ss:hover, .ticketqvadrat4_ss:hover {
 background-color:#FF0000;
 }
 
@@ -2112,7 +2168,7 @@ margin-top: -8.4%;
       height: 101.6%;
 }
 
-.ticketqvadrat1_cn, .ticketqvadrat2_cn, .ticketqvadrat3_cn, .ticketqvadrat4_cn {
+.ticketqvadrat1_cn, .ticketqvadrat2_cn, .ticketqvadrat3_cn, .ticketqvadrat4_cn, .ticketqvadrat2_ss, .ticketqvadrat3_ss, .ticketqvadrat4_ss {
 position: relative;
 width: 22%;
 box-sizing: border-box;
@@ -2206,6 +2262,11 @@ background-color: white;
 
 /* TEXT */
 
+.tire1_ss {
+left: 9.3%;
+top: 6%;
+}
+
 .tire2_ss {
   top: 33.6%;
 left: 9.3%;
@@ -2214,6 +2275,24 @@ left: 9.3%;
 .shriftsadabout {
   top: 35.5%;
 left: 9.3%;
+}
+
+.ticketqvadrat2_ss {
+  margin-left: 78.1%;
+  margin-top: -8.4%;
+      height: 102%;
+}
+
+.ticketqvadrat3_ss {
+  margin-left: 78.1%;
+  margin-top: -8.4%;
+  height: 102%;
+}
+
+.ticketqvadrat4_ss {
+  margin-left: 78.1%;
+  margin-top: -8.45%;
+  height: 102%;
 }
 
 .veta_ss {
@@ -2232,6 +2311,11 @@ bottom: 0.4%;
 }
 
 /* IMAGES */
+
+.shriftsad {
+margin-left: 9.3%;
+margin-top: 16.2%;
+}
 
 .burger_ss{
 margin-left: 93%;
@@ -2252,4 +2336,78 @@ width: 17%;
 
 @media all and (min-width: 568px){
 .burger2_ss {display:none;}
+}
+
+/* PROSTRANSTVO */
+
+/* GRID? */
+
+.first_pr {
+height: 16.6%;
+border: 1px solid white;
+}
+
+.second_pr {
+  height: 20%;
+  border: 1px solid white;
+  top: 20%;
+}
+
+.third_pr {
+height: 16.8%;
+border: 1px solid white;
+top: 50%;
+}
+
+.fourth_pr {
+height: 21%;
+border: 1px solid white;
+top: 75%;
+}
+
+.fifth_pr {
+  height: 25%;
+  border: 1px solid white;
+  top: 90%;
+}
+
+.footer_pr {
+width: 100%;
+height: 3%;
+margin-top: -0.5%;
+background-color: white;
+}
+
+/* TEXT */
+
+.veta_pr {
+left: 9%;
+color: black;
+text-decoration: none;
+}
+
+.ha_pr {
+left: 85.5%;
+}
+
+.veta_pr, .ha_pr {
+color: black;
+bottom: 0.4%;
+}
+
+/* IMAGES */
+
+.burger_pr{
+margin-left: 93%;
+margin-top: 2%;
+}
+
+.burger1_pr{
+width: 17%;
+}
+
+/* RESPONSIVE */
+
+@media all and (min-width: 568px){
+.burger2_pr {display:none;}
 }

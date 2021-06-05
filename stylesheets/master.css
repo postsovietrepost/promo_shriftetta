@@ -2395,6 +2395,75 @@ left: 9.3%;
 top: 11.68%;
 }
 
+.tire4_pr {
+  left: 31.7%;
+  top: 15.6%;
+}
+
+.tire5_pr {
+left: 9.3%;
+top: 19.45%;
+}
+
+.tire6_pr {
+left: 9.3%;
+top: 21.8%;
+}
+
+.tire7_pr {
+left: 9.3%;
+top: 30.8%;
+}
+
+.tire8_pr {
+  left: 23%;
+  top: 33%;
+}
+
+.tire9_pr {
+  left: 57%;
+  top: 33%;
+}
+
+.tire10_pr {
+  left: 9.3%;
+      top: 35.11%;
+}
+
+.tire11_pr {
+left: 9.3%;
+top: 36.8%;
+}
+
+.tire12_pr {
+left: 9.3%;
+top: 45.8%;
+}
+
+.tire13_pr {
+left: 9.3%;
+top: 47.6%;
+}
+
+.tire14_pr {
+  left: 23%;
+    top: 49.8%;
+}
+
+.tire15_pr {
+    left: 57%;
+    top: 49.8%;
+}
+
+.tire16_pr {
+left: 9.3%;
+top: 51.97%;
+}
+
+.tire4_pr, .tire8_pr, .tire9_pr, .tire14_pr, .tire15_pr {
+  transform: rotate(90deg);
+}
+
 .zdanietxt {
   top: 10.8%;
   left: 9.3%;
@@ -2405,9 +2474,49 @@ top: 11.68%;
   left: 88.9%;
 }
 
+.laungetxt {
+left: 9.3%;
+    top: 35.85%;
+}
+
+.odintxt {
+    top: 35.85%;
+  left: 88.9%;
+}
+
 .laungeslider, .vhodslider, .barslider, .bathroomslider, .artprslider, .lozhaslider {
   top: 9.4%;
   left: 20.5%;
+}
+
+.zdanievrez {
+  top: 20.3%;
+  left: 9.3%;
+}
+
+.laungevrez {
+  top: 46.6%;
+  left: 9.3%;
+}
+
+.podpis1 {
+  top: 30.2%;
+  left: 19.5%;
+}
+
+.podpis2 {
+    top: 45.2%;
+  left: 19.5%;
+}
+
+.zdaniesmalltxt {
+top: 31.7%;
+left: 38%;
+}
+
+.laungesmalltxt {
+    top: 48.5%;
+  left: 38%;
 }
 
 .veta_pr {
@@ -2429,7 +2538,7 @@ bottom: 0.4%;
 
 .sketch1 {
   margin-left: 9.3%;
-  margin-top: 33%;
+    margin-top: 60.55%;
 }
 
 .sketch1_img {
@@ -2447,9 +2556,75 @@ bottom: 0.4%;
   width: 36%;
 }
 
+.zdanie2 {
+  margin-left: 19.6%;
+      margin-top: 109%;
+}
+
+.zdanie2_img {
+  position: absolute;
+  width: 60%;
+}
+
+.zdaniesmall1 {
+  margin-left: 11.6%;
+  margin-top: 153.5%;
+}
+
+.zdaniesmall1_img {
+  position: absolute;
+  width: 16%;
+}
+
+.zdaniesmall2 {
+  margin-left: 72.5%;
+  margin-top: 153%;
+}
+
+.zdaniesmall2_img {
+  position: absolute;
+  width: 15%;
+}
+
+.laungesmall1 {
+  margin-left: 11.6%;
+  margin-top: 58.4%;
+}
+
+.laungesmall1_img {
+  position: absolute;
+  width: 16%;
+}
+
+.laungesmall2 {
+  margin-left: 72.5%;
+  margin-top: -4%;
+}
+
+.laungesmall2_img {
+  position: absolute;
+  width: 16%;
+  height: 4.8%;
+}
+
+.vannaya {
+  margin-left: 19.6%;
+      margin-top: 5%;
+}
+
+.vannaya_img {
+  position: absolute;
+  width: 60%;
+}
+
+.zdanie2_img:hover, .vannaya_img:hover{
+  -webkit-filter: invert(85%);
+  filter: invert(85%);
+}
+
 .burger_pr{
-margin-left: 93%;
-margin-top: 2%;
+  margin-left: 94%;
+  margin-top: -79%;
 }
 
 .burger1_pr{

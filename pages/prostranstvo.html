@@ -68,7 +68,10 @@ height: auto;
 #slider {
   position: relative;
   overflow: hidden;
-  margin: 20px auto 0 auto;
+  margin-top: 12%;
+      margin-left: 20.5%;
+      width: 80%;
+
 }
 
 #slider ul {
@@ -85,8 +88,8 @@ height: auto;
   float: left;
   margin: 0;
   padding: 0;
-  width: 500px;
-  height: 300px;
+  /* width: 500px;
+  height: 300px; */
   background: black;
   text-align: center;
   line-height: 300px;
@@ -102,25 +105,25 @@ a.control_prev, a.control_next {
   height: auto;
   color: #fff;
   text-decoration: none;
-  font-weight: 600;
-  font-size: 18px;
-  opacity: 0.8;
+  opacity: 1;
   cursor: pointer;
+  font-size: 80px;
+font-family: 'Apoc';
 }
 
 a.control_prev:hover, a.control_next:hover {
-  opacity: 1;
+  opacity: 0.75;
   -webkit-transition: all 0.2s ease;
 }
 
 a.control_prev {
-  border-radius: 0 2px 2px 0;
+  top: 4.3%;
+  left: 6.3%;
 }
 
 a.control_next {
-  top: 1%;
-  left: 63%;
-  border-radius: 2px 0 0 2px;
+  top: 4.2%;
+      left: 85%;
 }
 
 </style>
@@ -136,16 +139,42 @@ a.control_next {
   <img class="burger2_pr" src="../images/burger2.svg" alt="">
   </div>
 
-  <a href="#" class="control_next">>></a>
+  <p class="tire1_pr">------------------------------------------------------------------------------------------------------------------------------------------------------------</p>
+
+  <a href="#" class="control_next">></a>
 <a href="#" class="control_prev"><</a>
   <div id="slider">
   <ul>
     <li> <img src="../images/launge.svg" alt=""></li>
     <li> <img src="../images/vhod.svg" alt=""></li>
     <li> <img src="../images/bar.svg" alt=""></li>
+    <li> <img src="../images/bathroom.svg" alt=""></li>
+    <li> <img src="../images/artpr.svg" alt=""></li>
+    <li> <img src="../images/lozha.svg" alt=""></li>
   </ul>
 </div>
 
+<h3 class="laungeslider" style="visibility:visible">Лаунж-зона, 1 этаж</h3>
+<h3 class="vhodslider" style="visibility:hidden">Вход, 1 этаж</h3>
+<h3 class="barslider" style="visibility:hidden">Бар, 3 этаж</h3>
+<h3 class="bathroomslider" style="visibility:hidden">Уборная, паттерн на полу, 1 этаж</h3>
+<h3 class="artprslider" style="visibility:hidden">Арт-пространство, 2 этаж</h3>
+<h3 class="lozhaslider" style="visibility:hidden">Левая ложа, 2 этаж</h3>
+
+<p class="tire2_pr">------------------------------------------------------------------------------------------------------------------------------------------------------------</p>
+
+<h1 class="zdanietxt">Здание</h1>
+<h1 class="noltxt">0</h1>
+
+<p class="tire3_pr">------------------------------------------------------------------------------------------------------------------------------------------------------------</p>
+
+<div class="sketch1">
+<img class="sketch1_img" src="../images/sketch1.svg" alt="">
+</div>
+
+<div class="sketch2">
+<img class="sketch2_img" src="../images/sketch2.svg" alt="">
+</div>
 
 </div>
 
@@ -176,7 +205,6 @@ a.control_next {
 </div>
 
 <script src="../js/sliderforimg.js" charset="utf-8"></script>
-<script src="../js/navigation.js" charset="utf-8"></script>
 
 
 </body>

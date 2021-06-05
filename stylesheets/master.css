@@ -2380,6 +2380,36 @@ background-color: white;
 
 /* TEXT */
 
+.tire1_pr {
+left: 9.3%;
+top: 1.5%;
+}
+
+.tire2_pr {
+left: 9.3%;
+top: 10%;
+}
+
+.tire3_pr {
+left: 9.3%;
+top: 11.68%;
+}
+
+.zdanietxt {
+  top: 10.8%;
+  left: 9.3%;
+}
+
+.noltxt {
+  top: 10.8%;
+  left: 88.9%;
+}
+
+.laungeslider, .vhodslider, .barslider, .bathroomslider, .artprslider, .lozhaslider {
+  top: 9.4%;
+  left: 20.5%;
+}
+
 .veta_pr {
 left: 9%;
 color: black;
@@ -2396,6 +2426,26 @@ bottom: 0.4%;
 }
 
 /* IMAGES */
+
+.sketch1 {
+  margin-left: 9.3%;
+  margin-top: 33%;
+}
+
+.sketch1_img {
+  position: absolute;
+  width: 36%;
+}
+
+.sketch2 {
+  margin-left: 54.3%;
+  margin-top: 33%;
+}
+
+.sketch2_img {
+  position: absolute;
+  width: 36%;
+}
 
 .burger_pr{
 margin-left: 93%;

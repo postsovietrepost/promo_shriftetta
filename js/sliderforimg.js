@@ -3,7 +3,7 @@ jQuery(document).ready(function ($) {
   $('#checkbox').change(function(){
     setInterval(function () {
         moveRight();
-    }, 3000);
+    });
   });
 
 	var slideCount = $('#slider ul li').length;
@@ -19,8 +19,8 @@ jQuery(document).ready(function ($) {
 
     function moveLeft() {
         $('#slider ul').animate({
-            left: + slideWidth
-        }, 200, function () {
+            // left: + slideWidth
+        }, function () {
             $('#slider ul li:last-child').prependTo('#slider ul');
             $('#slider ul').css('left', '');
         });
@@ -28,8 +28,8 @@ jQuery(document).ready(function ($) {
 
     function moveRight() {
         $('#slider ul').animate({
-            left: - slideWidth
-        }, 200, function () {
+            // left: - slideWidth
+        }, function () {
             $('#slider ul li:first-child').appendTo('#slider ul');
             $('#slider ul').css('left', '');
         });
@@ -37,10 +37,23 @@ jQuery(document).ready(function ($) {
 
     $('a.control_prev').click(function () {
         moveLeft();
+
     });
 
     $('a.control_next').click(function () {
         moveRight();
+        $('.laungeslider').toggleClass('.vhodslider').removeClass('.laungeslider')
+        $('.laungeslider').css('visibility', 'hidden')
+        $('.vhodslider').css('visibility', 'visible')
     });
 
-}); 
+    $('a.control_next').click(function () {
+        moveRight();
+        $('.vhodslider').toggleClass('.barslider')
+        $('.vhodslider').css('visibility', 'hidden')
+        $('.barslider').css('visibility', 'visible')
+    });
+
+});
+
+// .barslider, .bathroomslider, .artprslider, .lozhaslider

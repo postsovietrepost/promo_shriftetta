@@ -2344,30 +2344,30 @@ width: 17%;
 
 .first_pr {
 height: 16.6%;
-border: 1px solid white;
+border: 1px solid black;
 }
 
 .second_pr {
   height: 20%;
-  border: 1px solid white;
+  border: 1px solid black;
   top: 20%;
 }
 
 .third_pr {
 height: 16.8%;
-border: 1px solid white;
+border: 1px solid black;
 top: 50%;
 }
 
 .fourth_pr {
 height: 21%;
-border: 1px solid white;
+border: 1px solid black;
 top: 75%;
 }
 
 .fifth_pr {
-  height: 25%;
-  border: 1px solid white;
+height: 24.94%;
+  border: 1px solid black;
   top: 90%;
 }
 
@@ -2382,141 +2382,254 @@ background-color: white;
 
 .tire1_pr {
 left: 9.3%;
-top: 1.5%;
+    top: 1.3%;
 }
 
 .tire2_pr {
 left: 9.3%;
-top: 10%;
+    top: 10.7%;
 }
 
 .tire3_pr {
 left: 9.3%;
-top: 11.68%;
+top: 12.65%;
 }
 
 .tire4_pr {
   left: 31.7%;
-  top: 15.6%;
+    top: 16.9%;
 }
 
 .tire5_pr {
 left: 9.3%;
-top: 19.45%;
+    top: 21.1%;
 }
 
 .tire6_pr {
 left: 9.3%;
-top: 21.8%;
+    top: 23.6%;
 }
 
 .tire7_pr {
 left: 9.3%;
-top: 30.8%;
+    top: 33.93%;
 }
 
 .tire8_pr {
   left: 23%;
-  top: 33%;
+    top: 36.4%;
 }
 
 .tire9_pr {
   left: 57%;
-  top: 33%;
+    top: 36.4%;
 }
 
 .tire10_pr {
   left: 9.3%;
-      top: 35.11%;
+top: 38.8%;
 }
 
 .tire11_pr {
 left: 9.3%;
-top: 36.8%;
+    top: 40.8%;
 }
 
 .tire12_pr {
 left: 9.3%;
-top: 45.8%;
+    top: 51.2%;
 }
 
 .tire13_pr {
 left: 9.3%;
-top: 47.6%;
+    top: 53.15%;
 }
 
 .tire14_pr {
   left: 23%;
-    top: 49.8%;
+top: 55.6%;
 }
 
 .tire15_pr {
     left: 57%;
-    top: 49.8%;
+top: 55.6%;
 }
 
 .tire16_pr {
 left: 9.3%;
-top: 51.97%;
+top: 57.97%;
 }
 
-.tire4_pr, .tire8_pr, .tire9_pr, .tire14_pr, .tire15_pr {
+.tire17_pr {
+left: 9.3%;
+top: 60.1%;
+}
+
+.tire18_pr {
+left: 9.3%;
+    top: 62.6%;
+}
+
+.tire19_pr {
+left: 9.3%;
+top: 73.25%;
+}
+
+.tire20_pr {
+  left: 23%;
+    top: 75.7%;
+}
+
+.tire21_pr {
+    left: 57%;
+    top: 75.7%;
+}
+
+.tire22_pr {
+left: 9.3%;
+    top: 78.1%;
+}
+
+.tire23_pr {
+left: 9.3%;
+    top: 80.3%;
+}
+
+.tire24_pr {
+left: 9.3%;
+    top: 82.77%;
+}
+
+.tire25_pr {
+  left: 23%;
+    bottom: 14.4%;
+}
+
+.tire26_pr {
+    left: 57%;
+    bottom: 14.4%;
+}
+
+.tire27_pr {
+left: 9.3%;
+    bottom: 12%;
+}
+
+.tire28_pr {
+left: 9.3%;
+    bottom: 1.7%;
+}
+
+.tire4_pr, .tire8_pr, .tire9_pr, .tire14_pr, .tire15_pr, .tire20_pr, .tire21_pr, .tire25_pr, .tire26_pr {
   transform: rotate(90deg);
 }
 
 .zdanietxt {
-  top: 10.8%;
+    top: 11.6%;
   left: 9.3%;
 }
 
 .noltxt {
-  top: 10.8%;
+      top: 11.6%;
   left: 88.9%;
 }
 
 .laungetxt {
 left: 9.3%;
-    top: 35.85%;
+    top: 39.7%;
 }
 
 .odintxt {
-    top: 35.85%;
+    top: 39.7%;
   left: 88.9%;
 }
 
+.leftlozhatxt {
+left: 9.3%;
+    top: 59%;
+}
+
+.dvatxt {
+    top: 59%;
+left: 88.9%;
+}
+
+.bartxt {
+left: 9.3%;
+    top: 79.2%;
+}
+
+.tritxt {
+    top: 79.2%;
+    left: 88.9%;
+}
+
 .laungeslider, .vhodslider, .barslider, .bathroomslider, .artprslider, .lozhaslider {
-  top: 9.4%;
+    top: 9.9%;
   left: 20.5%;
 }
 
 .zdanievrez {
-  top: 20.3%;
-  left: 9.3%;
+    top: 22%;
+  left: 9.5%;
 }
 
 .laungevrez {
-  top: 46.6%;
-  left: 9.3%;
+  top: 52.1%;
+      left: 9.5%;
+}
+
+.leftlozhavrez {
+    top: 61%;
+  left: 9.5%;
+}
+
+.barvrez {
+top: 81.2%;
+  left: 9.5%;
 }
 
 .podpis1 {
-  top: 30.2%;
+    top: 33.2%;
   left: 19.5%;
 }
 
 .podpis2 {
-    top: 45.2%;
+
+  top: 50.5%;
+  left: 19.5%;
+}
+
+.podpis3 {
+    top: 72.4%;
+  left: 19.5%;
+}
+
+.podpis4 {
+top: 97.2%;
   left: 19.5%;
 }
 
 .zdaniesmalltxt {
-top: 31.7%;
+    top: 35.1%;
 left: 38%;
 }
 
 .laungesmalltxt {
-    top: 48.5%;
+      top: 54.3%;
   left: 38%;
+}
+
+.leftlozhasmtxt {
+
+      top: 74.7%;
+
+left: 38%;
+}
+
+.barsmalltxt {
+top: 84%;
+left: 38%;
 }
 
 .veta_pr {
@@ -2531,14 +2644,14 @@ left: 85.5%;
 
 .veta_pr, .ha_pr {
 color: black;
-bottom: 0.4%;
+bottom: 0.2%;
 }
 
 /* IMAGES */
 
 .sketch1 {
   margin-left: 9.3%;
-    margin-top: 60.55%;
+    margin-top: 62.7%;
 }
 
 .sketch1_img {
@@ -2558,7 +2671,7 @@ bottom: 0.4%;
 
 .zdanie2 {
   margin-left: 19.6%;
-      margin-top: 109%;
+margin-top: 113%;
 }
 
 .zdanie2_img {
@@ -2568,7 +2681,7 @@ bottom: 0.4%;
 
 .zdaniesmall1 {
   margin-left: 11.6%;
-  margin-top: 153.5%;
+    margin-top: 160.5%
 }
 
 .zdaniesmall1_img {
@@ -2588,7 +2701,7 @@ bottom: 0.4%;
 
 .laungesmall1 {
   margin-left: 11.6%;
-  margin-top: 58.4%;
+    margin-top: 82%;
 }
 
 .laungesmall1_img {
@@ -2598,18 +2711,18 @@ bottom: 0.4%;
 
 .laungesmall2 {
   margin-left: 72.5%;
-  margin-top: -4%;
+margin-top: -3%;
 }
 
 .laungesmall2_img {
   position: absolute;
   width: 16%;
-  height: 4.8%;
+    height: 4.7%;
 }
 
 .vannaya {
   margin-left: 19.6%;
-      margin-top: 5%;
+    margin-top: 25%;
 }
 
 .vannaya_img {
@@ -2617,14 +2730,74 @@ bottom: 0.4%;
   width: 60%;
 }
 
-.zdanie2_img:hover, .vannaya_img:hover{
+.leftlozha {
+  margin-left: 19.6%;
+    margin-top: 48.5%;
+}
+
+.leftlozha_img {
+  position: absolute;
+  width: 60%;
+}
+
+.barcloseup {
+  margin-left: 19.6%;
+margin-top: 66%;
+}
+
+.barcloseup_img {
+  position: absolute;
+  width: 60%;
+}
+
+.leftlozhasm1 {
+  margin-left: 11.6%;
+    margin-top: 98%;
+}
+
+.leftlozhasm1_img {
+  position: absolute;
+  width: 16%;
+}
+
+.leftlozhasm2 {
+margin-left: 72.5%;
+margin-top: 63.2%;
+}
+
+.leftlozhasm2_img {
+  position: absolute;
+  width: 16%;
+}
+
+.barsmall1 {
+  margin-left: 11.6%;
+    margin-top: 44%;
+}
+
+.barsmall1_img {
+  position: absolute;
+  width: 16%;
+}
+
+.barsmall2 {
+  margin-left: 72.5%;
+    margin-top: 3.1%;
+}
+
+.barsmall2_img {
+  position: absolute;
+  width: 16%;
+}
+
+.zdanie2_img:hover, .vannaya_img:hover, .leftlozha_img:hover, .barcloseup_img:hover {
   -webkit-filter: invert(85%);
   filter: invert(85%);
 }
 
 .burger_pr{
   margin-left: 94%;
-  margin-top: -79%;
+    margin-top: -75%;
 }
 
 .burger1_pr{

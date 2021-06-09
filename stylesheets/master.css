@@ -1,4 +1,6 @@
 @import "reset.css";
+@import "responsive.css";
+
 
 
 @font-face {
@@ -80,6 +82,7 @@ text-align: center;
 text-decoration: none;
 display: inline-block;
 background: black;
+outline-style: none;
 }
 
 .swal-title {
@@ -98,6 +101,7 @@ height: 230px;
 background-color: black !important;
 left: -400px;
 top: 27px;
+outline-style: none;
 }
 
 .swal-button--confirm:hover {
@@ -117,6 +121,7 @@ background-color: black;
 color: white;
 left: -120px;
 top: 27px;
+outline-style: none;
 }
 
 .swal-button--cancel:hover {
@@ -130,7 +135,7 @@ background: black;
 overflow: hidden;
 }
 
-.sootnosheniye {
+.sootnosheniye_index{
 position: relative;
 padding-bottom: 140.595238%;
 background: black;
@@ -271,7 +276,7 @@ background-color: white;
 
 /* TEXT */
 
-.contacttxt, .booktxt, .prostranstvotxt, .teamtxt, .abouttxt, .repertuartxt, .plakat2txt, .veta, .tickets1txt, .tickets2txt, .tickets3txt, .veta_a, .veta_t, .veta_b, .veta_g, #ticketqvadrat3, #ticketqvadrat4, .veta_cn, .veta_ss, #ticketqvadrat2cn, #ticketqvadrat1cn, .ticketqvadrat3_cn, .ticketqvadrat4_cn, .ticketqvadrat2_ss, .ticketqvadrat3_ss
+.contacttxt, .booktxt, .prostranstvotxt, .teamtxt, .abouttxt, .repertuartxt, .plakat2txt, .veta, .tickets1txt, .tickets2txt, .tickets3txt, .veta_a, .veta_t, .veta_b, .veta_g, #ticketqvadrat3, #ticketqvadrat4, .veta_cn, .veta_ss, #ticketqvadrat2cn, .ticketqvadrat1_cn, .ticketqvadrat3_cn, .ticketqvadrat4_cn, .ticketqvadrat2_ss, .ticketqvadrat3_ss
 {cursor: pointer;}
 
 .ticketqvadrat4_ss, .veta_pr {
@@ -400,43 +405,6 @@ color: black;
 bottom: 0.6%;
 }
 
-/* RESPONSIVE */
-@media all and (min-width: 568px){
-.burger1_index {display:none;}
-.burger2_index {display:none;}
-}
-
-@media all and (max-width: 1440px) and (min-width: 568px){
-p {font-size: 22px; }
-h1 {left: 45.7%;font-size: 35px;}
-h3 {font-size: 15px;}
-h2 {font-size: 19px;}
-.burger1_index {display:none;}
-.burger2_index {display:none;}
-.tri {left: -3%;}
-.cheture {right: -3%;}
-.plakat1 {margin-top: 10.8%;}
-.plakat1img {width: 18%;}
-.plakat1txt, .plakat2txt, .plakat3txt {top: 50.5%;}
-.plakat2 {margin-top: -25.3%;}
-.plakat2img {width: 28.3%;}
-.plakat3 {margin-top: -25.3%;}
-.plakat3img {width: 65%;}
-.plakat4img {width: 17.5%;}
-.plakat4 {margin-top: 11.5%;}
-.plakat4txt, .plakat5txt, .plakat6txt {top: 98%;}
-.plakat5img {width: 27.5%;}
-.plakat5 {margin-top: -25%;}
-.plakat6img {width: 63.6%;}
-.plakat6 {margin-top: -24.6%;}
-.plakat6txt {left: 74.4%;}
-.plakat5txt {width: 9%;}
-}
-
-@media all and (min-width: 320px){
-
-}
-
 /* CONTACTS */
 
 /* GRID? */
@@ -537,30 +505,6 @@ width: 17%;
 
 .tuttxt, .burger_contacts, .burger_r, .burger_a {
 cursor: pointer;
-}
-
-
-/* RESPONSIVE */
-
-@media all and (min-width: 568px){
-.burger2_contacts {display:none;}
-}
-
-@media all and (max-width: 1440px) and (min-width: 568px){
-p {font-size: 23px;}
-h3 {font-size: 15px;}
-h2 {font-size: 19px;}
-.burger1_contacts {width: 16%;}
-.tire1 {left: 10.5%;top: 12.5%;}
-.tire2 {top: 21.6%;left: 15%;font-size: 23.3px;}
-.mapimg {width: 93%;}
-.map {margin-left: 5%;margin-top: 22.3%;}
-.tuttxt {left: 49.6%;}
-}
-/* ограничить текст по ширине но сука как */
-
-@media all and (min-width: 320px){
-
 }
 
 /* REPERTUAR */
@@ -827,21 +771,6 @@ width: 74.5%;
 .tickets1txt:hover, .tickets2txt:hover, .tickets3txt:hover {
 opacity: 0.75;
 color: #FF0000;
-}
-
-/* RESPONSIVE */
-/* @media all and (max-width:1920px) and (min-width: 521px){
-  img #burger2_r {display:none;}
-} */
-
-@media all and (max-width: 1440px) and (min-width: 568px){
-.tire1_r, .tire2_r, .tire3_r, .tire4_r, .tire5_r, .tire6_r, .tire7_r, .tire8_r, .tire9_r, .tire10_r {font-size: 27px;}
-h3 {font-size: 15px;}
-h2 {font-size: 19px;}
-}
-
-@media all and (min-width: 568px){
-.burger2_r {display:none;}
 }
 
 /* ABOUT */
@@ -1925,11 +1854,11 @@ box-sizing: border-box;
 background-color: #C4C4C4;
 }
 
-#ticketqvadrat3, #ticketqvadrat4, #ticketqvadrat1cn, #ticketqvadrat2cn, .ticketqvadrat3_cn, .ticketqvadrat4_cn, .ticketqvadrat2_ss, .ticketqvadrat3_ss, .ticketqvadrat4_ss {
+#ticketqvadrat3, #ticketqvadrat4, .ticketqvadrat1_cn, #ticketqvadrat2cn, .ticketqvadrat3_cn, .ticketqvadrat4_cn, .ticketqvadrat2_ss, .ticketqvadrat3_ss, .ticketqvadrat4_ss {
 background-color: white;
 }
 
-#ticketqvadrat3:hover, #ticketqvadrat4:hover, .circle_question:hover, #ticketqvadrat1cn:hover, #ticketqvadrat2cn:hover, .ticketqvadrat3_cn:hover, .ticketqvadrat4_cn:hover, .ticketqvadrat2_ss:hover, .ticketqvadrat3_ss:hover, .ticketqvadrat4_ss:hover {
+#ticketqvadrat3:hover, #ticketqvadrat4:hover, .circle_question:hover, .ticketqvadrat1_cn:hover, #ticketqvadrat2cn:hover, .ticketqvadrat3_cn:hover, .ticketqvadrat4_cn:hover, .ticketqvadrat2_ss:hover, .ticketqvadrat3_ss:hover, .ticketqvadrat4_ss:hover {
 background-color:#FF0000;
 }
 
@@ -2059,7 +1988,7 @@ left: 9.3%;
 top: 34%;
 }
 
-#ticketqvadrat1cn {
+.ticketqvadrat1_cn {
 top: -103%;
 left: 78.1%;
 height: 103%;

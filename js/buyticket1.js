@@ -1,5 +1,5 @@
-let buttonTicket = document.getElementById('ticketqvadrat1cn')
-let buttonTicketTwo = document.getElementById('ticketqvadrat2cn')
+let buttonTicket = $('.ticketqvadrat1_cn')
+// let buttonTicketTwo = document.getElementById('ticketqvadrat2cn')
 
 
 buttonTicket.addEventListener('click', function() {

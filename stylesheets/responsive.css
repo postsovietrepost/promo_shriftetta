@@ -286,35 +286,300 @@ div .tickets3txt {left: 39.2%;}
 }
 
 @media all and (max-width: 568px) and (min-width: 320px) and (orientation:portrait) {
-div .sootnosheniye_repertuar {padding-bottom: 340.333333%;}
-div .number1txt, div .nochtxt, div .soon1txt, div .number2txt, div .geroitxt, div .tickets1txt, div .number2txt, div .number3txt, div .number4txt, div .number5txt, div .number6txt, div .cursnatxt, div .rocktxt, div .shrifttxt, div .ukrstxt, div .tickets2txt {font-size: 9px;}
+div .sootnosheniye_repertuar {padding-bottom: 399.333333%;}
+div .number1txt, div .nochtxt, div .soon2txt, div .soon1txt, div .number2txt, div .geroitxt, div .tickets1txt, div .number2txt, div .number3txt, div .number4txt, div .number5txt, div .number6txt, div .cursnatxt, div .rocktxt, div .shrifttxt {font-size: 9px;}
+div .ukrstxt, div .tickets2txt, div .tickets3txt, div .soon3txt {font-size: 9px;}
 div .tire1_r, div .tire2_r, div .tire3_r, div .tire4_r, div .tire5_r, div .tire6_r, div .tire7_r, div .tire8_r, div .tire9_r {font-size: 19px;width: 79%;}
 div .tire3_r, div .tire6_r, div .tire9_r {transform: rotate(0deg);}
-div .tire3_r {top: 12%;left: 9.4%;}
-div .tire6_r {left: 9.4%;top: 28.4%;}
+div .tire3_r {top: 19.9%;left: 9.4%;}
+div .tire6_r {left: 9.4%;top: 52%;}
 div .tire10_r {display: none;}
-div .tire1_r {top: 2.5%;}
-div .tire2_r {top: 4.2%;}
-div .premiertxt {top: 3.6%;left: 40%;}
+div .tire1_r {top: 3%;}
+div .tire2_r {top: 6.5%;}
+div .premiertxt {top: 5.2%;left: 40%;}
 div .premiertxt, div .actualtxt, div .archivetxt {font-size: 13px;}
-div .repertuar2 {margin-top: 23.4%;margin-left: 11%;}
+div .repertuar2 { margin-top: 24.4%;margin-left: 11%;}
 .repertuar2 img {width: 36%;}
-div .burger_r {margin-left: 88%;margin-top: 5%;}
-.burger1_r img {width: 37%;}
-div .veta_r, div .ha_r {font-size:}
-div .repertuar1 {margin-top: 48.1%;}
-div .number1txt, div .soon1txt {top: 6.6%;}
-div .number1txt, div .nochtxt, div .number2txt, div .geroitxt, div .number3txt, div .cursnatxt {left: 49%;}
-div .number2txt, div .tickets1txt {top: 14%;}
-div .number3txt, div .tickets2txt {top: 23.1%;}
-div .cursnatxt {top: 26.8%;}
-div .soon1txt, div .tickets1txt, div .tickets2txt {left: 65%;}
-div .nochtxt {top: 10%; width: 26%;}
-div .geroitxt {top: 17.5%;}
-div .tire4_r {top: 19%;}
-div .actualtxt {top: 20.1%;left: 38.6%;}
-div .tire5_r {top: 20.8%;}
+div .burger_r {margin-left: 91%;margin-top: 3%;}
+.burger1_r img {width: 30%;}
+div .veta_r, div .ha_r {font-size: 9px;bottom: 0.4%;}
+div .ha_r {left: 78.2%;}
+div .repertuar1 {margin-top: 40.1%;}
+div .number1txt, div .soon1txt {top: 10%;}
+div .number1txt, div .nochtxt, div .number2txt, div .geroitxt, div .number3txt, div .cursnatxt, div .number4txt, div .rocktxt, div .number5txt, div .number6txt, div .shrifttxt, div .ukrstxt {left: 49%;}
+div .number2txt, div .tickets1txt {top: 23.8%;}
+div .number3txt, div .tickets2txt {top: 41.9%;}
+div .number4txt, div .soon2txt {top: 56.2%;}
+div .number5txt, div .tickets3txt {top: 73.6%;}
+div .number6txt, div .soon3txt {top: 87.3%;}
+div .cursnatxt {top: 48.5%;}
+div .rocktxt {top: 62.7%;}
+div .soon1txt, div .tickets1txt, div .tickets2txt, div .soon2txt, div .tickets3txt, div .soon3txt {left: 65%;}
+div .nochtxt {top: 16%;width: 26%;}
+div .geroitxt {top: 30.2%;}
+div .shrifttxt {top: 80.4%;}
+div .tire4_r {top: 33.6%;}
+div .actualtxt {top: 36%;left: 38.6%;}
+div .tire5_r {top: 37.5%;}
+div .tire7_r {top: 65.9%;}
+div .tire8_r {top: 69.6%;}
+div .tire9_r {top: 83.5%;left: 9.4%;}
+div .archivetxt {top: 68.1%;left: 44.3%;}
+div .ukrstxt {top: 94.1%;}
 .repertuar3 img {width: 37.2%;}
-div .repertuar3 {margin-top: -73.5%;}
-div .repertuar4 {margin-top: 47.9%;}
+div .repertuar3 {margin-top: 34.5%;}
+div .repertuar4 {margin-top: 25.9%;margin-left: 10.9%;}
+.repertuar4 img {width: 37.4%;}
+div .repertuar5 {margin-top: 29%;}
+div .repertuar6 {margin-left: 11.2%;margin-top: 23.24%;}
+.repertuar6 img {width: 37.5%;}
+div .footer_r {margin-top: -2%;}
+}
+
+/* TEAM */
+
+@media all and (max-width: 1440px) and (min-width: 900px){
+div .shtxt, div .btxt, div .atxt, div .itxt, div .ttxt, div .etxt, div .otxt, div .ftxt, div .gtxt, div .jtxt, div .ztxt, div .question_t, div .veta_t, div .ha_t {font-size: 16px;}
+.team3 img {height: 14.4%;}
+.team2 img {height: 14.5%;width: 23%;}
+div .btxt {left: 48%;}
+div .question_t {top: 83.6%;}
+.team6 img {height: 14.4%;width: 23%;}
+}
+
+@media all and (max-width: 1024px) and (min-width: 768px) and (orientation:landscape){
+div .shtxt, div .btxt, div .atxt, div .itxt, div .ttxt, div .etxt, div .otxt, div .ftxt, div .gtxt, div .jtxt, div .ztxt, div .question_t, div .veta_t, div .ha_t {font-size: 14px;}
+div .question_t {left: 73.5%;}
+div .shtxt {left: 15.5%;}
+div .btxt {left: 47%;}
+div .atxt {left: 78%;}
+div .itxt {left: 12%;}
+div .team5, div .team8 {margin-left: 40.4%;}
+div .ttxt {left: 43%;}
+div .etxt {left: 78.6%;}
+div .otxt {left: 16%;}
+div .ftxt {left: 44.5%;}
+div .gtxt {left: 75.3%;}
+div .jtxt {left: 11%;}
+div .ztxt {left: 47%;}
+}
+
+@media all and (max-width: 1024px) and (min-width: 768px) and (orientation:portrait){
+div .shtxt, div .btxt, div .atxt, div .itxt, div .ttxt, div .etxt, div .otxt, div .ftxt, div .gtxt, div .jtxt, div .ztxt, div .question_t, div .veta_t, div .ha_t {font-size: 11px;}
+div .question_t {left: 73%;}
+div .shtxt {left: 15.5%;}
+div .btxt {left: 46.5%;}
+div .atxt {left: 78%;}
+div .itxt {left: 12%;}
+div .team5, div .team8 {margin-left: 40.4%;}
+div .ttxt {left: 43%;}
+div .etxt {left: 78.6%;}
+div .otxt {left: 16%;}
+div .ftxt {left: 44.5%;}
+div .gtxt {left: 75.3%;}
+div .jtxt {left: 11%;}
+div .ztxt {left: 47%;}
+div .etxt {left: 77.6%;}
+div .footer_t {margin-top: -0.9%;}
+div .veta_t, div .ha_t {bottom: 0.5%;}
+}
+
+@media all and (max-width: 568px) and (min-width: 320px) and (orientation:portrait) {
+div .sootnosheniye_team {padding-bottom: 360.3125%;}
+div .shtxt, div .btxt, div .atxt, div .itxt, div .ttxt, div .etxt, div .otxt, div .ftxt, div .gtxt, div .jtxt, div .ztxt, div .question_t, div .veta_t, div .ha_t {font-size: 8px;}
+div .footer_t {margin-top: -0.5%;}
+div .veta_t, div .ha_t {bottom: 0.35%;}
+.team1 img, .team2 img, .team7 img {width: 35%;}
+div .team1 {margin-left: 10.5%;margin-top: 21.8%;}
+div .burger_t {margin-left: 89%;margin-top: 4%;}
+.burger_t img {width: 30%;}
+div .team2 {margin-left: 56.4%;margin-top: -8.1%;}
+div .team3 {margin-top: 78.9%;margin-left: 9.5%;}
+.team3 img {width: 37%;}
+div .team4 {margin-top: -5.7%;margin-left: 55.9%;}
+.team4 img {width: 34.7%;}
+.team5 img {width: 36.9%;}
+div .team5 {margin-left: 10.4%;margin-top: 48.4%;}
+.team6 img {height: 9.3%;}
+div .team6 {margin-left: 56.5%;margin-top: 58.6%;}
+.team7 img {width: 34.2%;}
+div .team7 {margin-top: 18.4%;margin-left: 10.5%;}
+div .team8 {margin-left: 56.4%;margin-top: -12.2%;}
+.team8 img {width: 36.8%;}
+div .team9 {margin-left: 10.55%;margin-top: 78.6%;}
+.team9 img {width: 33.9%;}
+div .team10 {margin-top: -24.5%;margin-left: 54.7%;}
+.team10 img {width: 38.6%;}
+div .team11 {margin-left: 5.5%;margin-top: 54.1%;}
+.team11 img {width: 46.3%;}
+div .circle_question {width: 33.8%;height: 37.2%;margin-left: 55.7%;margin-top: 66.3%;}
+div .question_t {top: 88.4%;left: 59%;}
+div .shtxt {left: 22%;top: 18%;}
+div .btxt {left: 67%;top: 18%;}
+div .atxt {left: 21%;top: 33.7%;}
+div .itxt {left: 61.5%;top: 33.7%;}
+div .ttxt {left: 13%;top: 49.2%;}
+div .etxt {left: 67.3%;top: 49.2%;}
+div .otxt {left: 22%;top: 65%;}
+div .ftxt {left: 62%;top: 65%;}
+div .ztxt {left: 21%;top: 95.9%;}
+div .jtxt {left: 58%;top: 80.9%;}
+div .gtxt {top: 80.9%;left: 17.3%;}
+}
+
+/* BOOK */
+
+@media all and (max-width: 1440px) and (min-width: 900px){
+div .tire1_b, div .tire2_b, div .tire3_b, div .tire6_b, div .tire7_b, div .tire8_b {font-size: 23px;}
+div .tire4_b, div .tire5_b {font-size: 22px;}
+div .izdatelstvo, div .moscow, div .bookabout, div .firstissue, div .readfull, div .poof_b, div .number4_b, div .table_b, div .number3_b, div .sofa_b, div .number2_b, div .stool_b, div .number1_b, div .ha_b, div .veta_b {font-size: 16px;}
+div .tire5_b {left: -4.9%;}
+div .tire4_b {left: -37.9%;}
+div .veta_b {left: 7%;}
+div .ha_b {left: 87.5%;}
+div .bookstar1 {margin-left: 12%;margin-top: -2.9%;}
+.bookstar1 img {width: 14%;}
+div .bookstar2 {margin-left: 41%;margin-top: -18.1%;}
+.bookstar2 img {width: 17%;}
+.book1 img, .book2 img, .book3 img, .book4 img {width: 16.3%;}
+div .book2 {margin-left: 10.3%;margin-top: 51.4%;}
+div .furniture1 {margin-top: -18%;}
+.furniture1 img {width: 32%;}
+.furniture2 img {width: 28%;}
+.furniture3 img {width: 26%;}
+div .bookstar3 {margin-left: 73%;}
+.bookstar3 img {width: 16%;}
+.bookstar4 img {width: 15%;}
+div .furniture4 {margin-left: 35%;margin-top: -31%;}
+.furniture4 img {width: 30%;}
+div .bookstar4 {margin-left: 10.5%;margin-top: 125.5%;}
+div .number3_b, div .table_b {left: 10.4%;}
+div .sofa_b {top: 72.5%;}
+div .poof_b {top: 97.1%;}
+div .book4 {margin-top: 138.3%;}
+div .stool_b, div .number1_b, div .number4_b {left: 38%;}
+div .number2_b, div .sofa_b {left: 71%;}
+.book1row img, .book2row img, .book3row img, .book4row img, .book5row img, .book6row img {width: 79.3%;left: 10.5%;margin-top: 0.5%;}
+}
+
+@media all and (max-width: 1024px) and (min-width: 768px) and (orientation:landscape) {
+div .tire1_b, div .tire2_b, div .tire3_b, div .tire6_b, div .tire7_b, div .tire8_b {font-size: 16.4px;}
+.book1row img, .book2row img, .book3row img, .book4row img, .book5row img, .book6row img {width: 77.3%;left: 11.5%;}
+div .izdatelstvo, div .moscow, div .bookabout, div .firstissue, div .readfull, div .poof_b, div .number4_b, div .table_b, div .number3_b, div .sofa_b, div .number2_b, div .stool_b, div .number1_b, div .ha_b, div .veta_b {font-size: 11px;}
+div .tire4_b, div .tire5_b {font-size: 15.5px;}
+.bookstar1 img {width: 13%;}
+.bookstar2 img {width: 16%;}
+.bookstar3 img {width: 15%;}
+.bookstar4 img {width: 14%;}
+.furniture4 img {width: 29%;}
+div .bookstar4 {margin-left: 11.5%;margin-top: 126.5%;}
+div .number2_b {top: 63.1%;}
+div .furniture2 {margin-left: 65.3%;margin-top: 37.9%;}
+div .furniture3 {margin-top: 77.9%;}
+div .furniture4 {margin-top: -31.5%;}
+div .number3_b, div .table_b {left: 10.8%;}
+.furniture2 img {width: 29%;}
+div .sofa_b {top: 72.6%;}
+div .furniture1 {margin-top: -17%;margin-left: 33.3%;}
+div .book1 {margin-top: 14.1%;}
+div .book2 {margin-top: 50.4%;}
+div .book3 {margin-left: 41.7%;margin-top: 89.1%;}
+div .veta_b, div .ha_b {bottom: 0.25%;}
+.book1 img, .book2 img, .book3 img, .book4 img {width: 15.3%;}
+div .tire3_b {top: 49.7%;}
+div .tire4_b, div .tire5_b {top: 74.2%;}
+div .number1_b {top: 51.2%;}
+div .stool_b {top: 60.3%;}
+}
+
+@media all and (max-width: 1024px) and (min-width: 768px) and (orientation:portrait) {
+div .tire1_b, div .tire2_b, div .tire3_b, div .tire6_b, div .tire7_b, div .tire8_b {font-size: 12.4px;}
+.book1row img, .book2row img, .book3row img, .book4row img, .book5row img, .book6row img {width: 77.3%;left: 12.5%;}
+div .izdatelstvo, div .moscow, div .bookabout, div .firstissue, div .readfull, div .poof_b, div .number4_b, div .table_b, div .number3_b, div .sofa_b, div .number2_b, div .stool_b, div .number1_b, div .ha_b, div .veta_b {font-size: 9px;}
+div .tire4_b, div .tire5_b {font-size: 11.8px;}
+.book1 img, .book2 img, .book3 img, .book4 img {width: 14.3%;}
+.bookstar1 img {width: 12%;}
+div .bookstar1 {margin-top: -1.9%;}
+div .bookstar2 {margin-top: -16.1%;}
+div .book1 {margin-left: 74.3%;}
+.bookstar2 img {width: 15%;}
+.bookstar3 img {width: 14%;}
+.bookstar4 img {width: 13%;}
+div .bookstar3 {margin-left: 75%;margin-top: 86.9%;}
+.furniture4 img {width: 29%;}
+div .bookstar4 {margin-left: 11.5%;margin-top: 123.5%;}
+div .number2_b {top: 63.1%;}
+div .furniture2 {margin-left: 67.3%;margin-top: 37.9%;}
+div .furniture3 {margin-top: 76.9%;}
+.furniture3 img {width: 25%;}
+div .furniture4 {margin-top: -28.5%;}
+div .number3_b, div .table_b {left: 10.8%;}
+.furniture2 img {width: 27%;}
+div .sofa_b {top: 72.6%;}
+div .furniture1 {margin-top: -16%;margin-left: 35.3%;}
+.furniture1 img {width: 30%;}
+div .book1 {margin-top: 13.1%;}
+div .book2 {margin-top: 50.4%;margin-left: 12.3%;}
+div .book3 {margin-left: 42.7%;margin-top: 87.6%;}
+div .veta_b, div .ha_b {bottom: 0.3%;}
+div .tire3_b {top: 49.2%;}
+div .tire4_b, div .tire5_b {top: 74%;}
+div .number1_b {top: 51.2%;}
+div .stool_b {top: 60.3%;}
+div .tire5_b {left: -4.9%;}
+div .tire4_b {left: -39.2%;}
+div .stool_b, div .number1_b, div .number4_b {left: 37%;}
+div .number2_b, div .sofa_b {left: 72%;}
+div .footer_b {margin-top: -1.5%;}
+div .poof_b {top: 97.3%;}
+div .book4 {margin-left: 74.3%;margin-top: 136.3%;}
+div .qartochka {left: 15.4%;}
+}
+
+/* ABOUT */
+
+@media all and (max-width: 1440px) and (min-width: 900px){
+div .tire1_a, div .tire2_a, div .tire4_a, div .tire7_a, div .tire5_a {font-size: 22px;}
+div .vrez_a, div .podrobnosti_a {font-size: 33px;}
+div .aboutthtxt, div .prostranstvotxt_a, div .booktxt_a, div .veta_a, div .ha_a {font-size: 16px;}
+div .tire3_a, div .tire6_a {font-size: 22px;}
+div .book {margin-left: 77.3%;}
+}
+
+@media all and (max-width: 1024px) and (min-width: 768px) and (orientation:landscape) {
+div .tire1_a, div .tire2_a, div .tire4_a, div .tire7_a, div .tire5_a, div .tire3_a, div .tire6_a {font-size: 16px;}
+div .aboutthtxt, div .prostranstvotxt_a, div .booktxt_a, div .veta_a, div .ha_a {font-size: 11px;}
+div .vrez_a, div .podrobnosti_a {font-size: 26px;}
+div .tire5_a {width: 52.4%;}
+}
+
+@media all and (max-width: 1024px) and (min-width: 768px) and (orientation:portrait) {
+div .tire1_a, div .tire2_a, div .tire4_a, div .tire7_a, div .tire5_a, div .tire3_a, div .tire6_a {font-size: 12px;}
+div .aboutthtxt, div .prostranstvotxt_a, div .booktxt_a, div .veta_a, div .ha_a {font-size: 9px;}
+div .vrez_a, div .podrobnosti_a {font-size: 21.2px;}
+div .tire5_a {width: 52.4%;}
+div .vrez_a {left: 9.5%;top: 29.2%;}
+div .sootnosheniye_about {padding-bottom: 133.333333%;}
+div .about2_a {margin-left: 49.3%;margin-top: 9.5%;}
+div .tire3_a {left: 32.3%;top: 50.8%;}
+div .aboutthtxt {top: 43.5%;}
+div .about3_a {margin-top: 13%;}
+div .podrobnosti_a {left: 42.5%;}
+div .prostranstvotxt_a {left: 41%;}
+div .booktxt_a {left: 52%;}
+div .house {margin-top: 20.5%;}
+div .tire6_a {left: 46.7%;}
+div .about1img, div .about2img {width: 30%;}
+div .about1_a {margin-left: 21.3%;}
+div .tire3_a, div .tire6_a {font-size: 15px;}
+}
+
+@media all and (max-width: 568px) and (min-width: 320px) and (orientation:portrait) {
+div .sootnosheniye_about {padding-bottom: 194.375%;}
+div .about2_a, div .about1_a {display: none;}
+div .aboutthtxt, div .prostranstvotxt_a, div .booktxt_a, div .veta_a, div .ha_a {font-size: 8px;}
+div .tire1_a, div .tire2_a, div .tire4_a, div .tire7_a, div .tire5_a, div .tire3_a, div .tire6_a {font-size: 9px;width: 80%;}
+div .vrez_a, div .podrobnosti_a {font-size: 11px;}
+div .footer_a {margin-top: -1%;}
+
 }

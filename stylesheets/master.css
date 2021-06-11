@@ -388,7 +388,7 @@ left: 41.6%;
 
 .plakat6txt {
 /* left: 74.2%; */
-    left: 76.5%;
+    left: 76.2%;
 }
 
 .plakat4txt, .plakat5txt, .plakat6txt  {
@@ -1314,11 +1314,13 @@ top: 74%;
 }
 
 .tire4_b {
-left: -39.9%;
+/* left: -39.9%; */
+    left: -38.9%;
 }
 
 .tire5_b {
-left: -5.9%;
+/* left: -5.9%; */
+    left: -7.5%;
 }
 
 .tire4_b, .tire5_b {
@@ -1351,7 +1353,8 @@ top: 60%;
 }
 
 .stool_b, .number1_b, .number4_b{
-left: 36%;
+/* left: 36%; */
+left: 38%;
 }
 
 .number2_b, .sofa_b{
@@ -1363,11 +1366,12 @@ top: 63%;
 }
 
 .sofa_b {
-top: 72.7%;
+top: 72.4%;
 }
 
 .number3_b, .table_b {
-left: 9.4%;
+/* left: 9.4%; */
+left: 11.4%;
 }
 
 .number3_b {
@@ -1451,8 +1455,10 @@ position: absolute;
 }
 
 .bookstar2 {
-margin-left: 42%;
-margin-top: -19.1%;
+/* margin-left: 42%;
+margin-top: -19.1%; */
+margin-left: 40%;
+margin-top: -18.1%;
 }
 
 .bookstar2_img {
@@ -1465,11 +1471,13 @@ margin-top: 88.9%;
 }
 
 .bookstar3_img, .bookstar4_img {
-width: 17%;
+/* width: 17%; */
+width: 15%;
 }
 
 .bookstar4 {
-margin-left: 10.5%;
+/* margin-left: 10.5%; */
+    margin-left: 11.5%;
 margin-top: 127.5%;
 }
 
@@ -1478,63 +1486,80 @@ transform: rotate(90deg);
 }
 
 .furniture1 {
-margin-left: 32.3%;
-margin-top: -19.9%;
+/* margin-left: 32.3%;
+margin-top: -19.9%; */
+margin-left: 34.3%;
+    margin-top: -17%;
 }
 
 .furniture1_img {
-width: 34%;
+/* width: 34%; */
+width: 31%;
 }
 
 .furniture2 {
 margin-left: 64.3%;
-margin-top: 39.9%;
+margin-top: 38.9%;
 }
 
 .furniture2_img {
-width: 30%;
+/* width: 30%; */
+width: 28%;
 }
 
 .furniture3 {
-margin-left: 4.3%;
-margin-top: 79.9%;
+/* margin-left: 4.3%;
+margin-top: 79.9%; */
+margin-left: 5.3%;
+margin-top: 78.9%;
 }
 
 .furniture3_img {
-width: 26%;
+/* width: 26%; */
+width: 25%;
+
 }
 
 .furniture4 {
-margin-left: 34%;
-margin-top: -34%;
+/* margin-left: 34%;
+margin-top: -34%; */
+margin-left: 35%;
+margin-top: -32.5%;
 }
 
 .furniture4_img {
-width: 32%;
+/* width: 32%; */
+width: 30%;
 }
 
 .book1 {
-margin-left: 73.3%;
-margin-top: 14.1%;
+/* margin-left: 73.3%;
+margin-top: 14.1%; */
+margin-left: 72%;
+    margin-top: 14%;
 }
 
 .book1_img, .book2_img, .book3_img, .book4_img {
-width: 17.3%;
+width: 15.3%;
 }
 
 .book2 {
-margin-left: 9.3%;
-margin-top: 52.4%;
+/* margin-left: 9.3%;
+margin-top: 52.4%; */
+margin-left: 12.3%;
+margin-top: 51.4%;
 }
 
 .book3 {
-margin-left: 41.4%;
+/* margin-left: 41.4%; */
+margin-left: 42%;
 margin-top: 90.1%;
 }
 
 .book4 {
-margin-left: 73.3%;
-margin-top: 141.3%;
+/* margin-left: 73.3%; */
+margin-left: 72.3%;
+margin-top: 140.3%;
 }
 
 .qartochka {

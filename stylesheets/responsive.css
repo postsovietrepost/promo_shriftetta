@@ -115,7 +115,7 @@ div .plakat6txt {left: 75.6%;}
 
 @media all and (max-width: 568px) and (min-width: 320px) and (orientation:portrait) {
 div .sootnosheniye_index {padding-bottom: 473.595238%;}
-.plakat1txt, .plakat2txt, .plakat3txt, .plakat4txt, .plakat5txt, .plakat6txt, .veta, .ha {font-size: 9px;}
+div .plakat1txt, div .plakat2txt, div .plakat3txt, div .plakat4txt, div .plakat5txt, div .plakat6txt, div .veta, div .ha {font-size: 9px;}
 .burger1_index {display:none;}
 .burger2_index {display:none;}
 .mainpgbg img {display: none;}
@@ -429,7 +429,12 @@ div .gtxt {top: 80.9%;left: 17.3%;}
 
 /* BOOK */
 
+@media all and (max-width: 1792px) and (min-width: 1057px){
+div .bookmobileslider {display: none;}
+}
+
 @media all and (max-width: 1440px) and (min-width: 900px){
+div .bookmobileslider {display: none;}
 div .tire1_b, div .tire2_b, div .tire3_b, div .tire6_b, div .tire7_b, div .tire8_b {font-size: 23px;}
 div .tire4_b, div .tire5_b {font-size: 22px;}
 div .izdatelstvo, div .moscow, div .bookabout, div .firstissue, div .readfull, div .poof_b, div .number4_b, div .table_b, div .number3_b, div .sofa_b, div .number2_b, div .stool_b, div .number1_b, div .ha_b, div .veta_b {font-size: 16px;}
@@ -534,6 +539,16 @@ div .footer_b {margin-top: -1.5%;}
 div .poof_b {top: 97.3%;}
 div .book4 {margin-left: 74.3%;margin-top: 136.3%;}
 div .qartochka {left: 15.4%;}
+}
+
+@media all and (max-width: 568px) and (min-width: 320px) and (orientation:portrait) {
+div .tire1_b, div .tire2_b, div .tire3_b, div .tire6_b, div .tire7_b, div .tire8_b {font-size: 6px;width: 81%;}
+div .tire9_b {font-size: 6px;}
+.book1row img, .book2row img, .book3row img, .book4row img, .book5row img, .book6row img {width: 77.3%;left: 12.5%;}
+div .izdatelstvo, div .moscow, div .bookabout, div .readfull, div .poof_b, div .number4_b, div .table_b, div .number3_b, div .sofa_b, div .number2_b, div .stool_b, div .number1_b, div .ha_b, div .veta_b {font-size: 5px;}
+div .bookstar1, div .bookstar2, div .bookstar3, div .bookstar4, div .tire5_b, div .book1row, div .book2row, div .book3row, div .book4row, div .book5row, div .book6row, div .firstissue {display: none;}
+div .readfull {width: 40%;}
+
 }
 
 /* ABOUT */

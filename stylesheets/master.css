@@ -110,6 +110,7 @@ background-color: #FF0000 !important;
 
 .swal-button{
 background-color: black;
+border-radius: 0px;
 }
 
 .swal-button__loader {
@@ -266,6 +267,7 @@ display: block;
 border: 1px solid white;
 width: 100%;
 height: 2%;
+margin-top: 0.5%;
 }
 
 .qvadrat {
@@ -352,11 +354,13 @@ top: 51.5%;
 }
 
 .plakat1txt {
-left: 7%;
+/* left: 7%; */
+left: 9.7%;
 }
 
 .plakat2txt {
-left: 41%;
+/* left: 41%; */
+left: 43.2%;
 color: white;
 text-decoration: none;
 }
@@ -367,23 +371,32 @@ opacity: 0.75;
 }
 
 .plakat3txt {
-left: 74.2%;
+/* left: 74.2%; */
+left: 77.5%;
 }
 
 .plakat4txt {
-left: 7.3%;
+/* left: 7.3%; */
+left: 9.7%;
 }
 
 .plakat5txt {
-left: 41%;
+/* left: 41%; */
+left: 41.6%;
+    width: 18%;
 }
 
 .plakat6txt {
-left: 74.2%;
+/* left: 74.2%; */
+    left: 76.5%;
 }
 
 .plakat4txt, .plakat5txt, .plakat6txt  {
-top: 100%;
+top: 101%;
+}
+
+.plakat3txt, .plakat2txt, .plakat1txt, .plakat4txt, .plakat5txt, .plakat6txt {
+  font-size: 19px;
 }
 
 .veta {
@@ -1598,6 +1611,7 @@ width: 100%;
 height: 3%;
 margin-top: -0.5%;
 background-color: white;
+border: 1px solid white;
 }
 
 /* TEXT */

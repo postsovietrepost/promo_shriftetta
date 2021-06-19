@@ -552,8 +552,12 @@ div .readfull {width: 40%;}
 }
 
 /* ABOUT */
+@media all and (max-width: 1920px) and (min-width: 1440px){
+div .aboutthtxt_mobile {display: none;}
+}
 
 @media all and (max-width: 1440px) and (min-width: 900px){
+div .aboutthtxt_mobile {display: none;}
 div .tire1_a, div .tire2_a, div .tire4_a, div .tire7_a, div .tire5_a {font-size: 22px;}
 div .vrez_a, div .podrobnosti_a {font-size: 33px;}
 div .aboutthtxt, div .prostranstvotxt_a, div .booktxt_a, div .veta_a, div .ha_a {font-size: 16px;}
@@ -562,6 +566,7 @@ div .book {margin-left: 77.3%;}
 }
 
 @media all and (max-width: 1024px) and (min-width: 768px) and (orientation:landscape) {
+div .aboutthtxt_mobile {display: none;}
 div .tire1_a, div .tire2_a, div .tire4_a, div .tire7_a, div .tire5_a, div .tire3_a, div .tire6_a {font-size: 16px;}
 div .aboutthtxt, div .prostranstvotxt_a, div .booktxt_a, div .veta_a, div .ha_a {font-size: 11px;}
 div .vrez_a, div .podrobnosti_a {font-size: 26px;}
@@ -569,6 +574,7 @@ div .tire5_a {width: 52.4%;}
 }
 
 @media all and (max-width: 1024px) and (min-width: 768px) and (orientation:portrait) {
+div .aboutthtxt_mobile {display: none;}
 div .tire1_a, div .tire2_a, div .tire4_a, div .tire7_a, div .tire5_a, div .tire3_a, div .tire6_a {font-size: 12px;}
 div .aboutthtxt, div .prostranstvotxt_a, div .booktxt_a, div .veta_a, div .ha_a {font-size: 9px;}
 div .vrez_a, div .podrobnosti_a {font-size: 21.2px;}
@@ -590,11 +596,110 @@ div .tire3_a, div .tire6_a {font-size: 15px;}
 }
 
 @media all and (max-width: 568px) and (min-width: 320px) and (orientation:portrait) {
-div .sootnosheniye_about {padding-bottom: 194.375%;}
-div .about2_a, div .about1_a {display: none;}
-div .aboutthtxt, div .prostranstvotxt_a, div .booktxt_a, div .veta_a, div .ha_a {font-size: 8px;}
-div .tire1_a, div .tire2_a, div .tire4_a, div .tire7_a, div .tire5_a, div .tire3_a, div .tire6_a {font-size: 9px;width: 80%;}
-div .vrez_a, div .podrobnosti_a {font-size: 11px;}
+div .sootnosheniye_about {padding-bottom: 177.375%;}
+div .aboutthtxt_mobile {top: 51%;left: 9%;}
+div .about2_a, div .about1_a, div .tire6_a, div .aboutthtxt {display: none;}
+div .aboutthtxt, div .prostranstvotxt_a, div .booktxt_a, div .veta_a, div .ha_a, div .aboutthtxt_mobile {font-size: 8px;}
+div .tire1_a, div .tire2_a, div .tire4_a, div .tire7_a, div .tire5_a, div .tire6_a {font-size: 9px;width: 80%;}
+div .vrez_a {font-size: 8.5px;}
+div .tire3_a {font-size: 9px; width: 35%;left: 34.7%;top: 80.9%;}
+div .veta_a, div .ha_a {bottom: 0.5%;}
+div .podrobnosti_a {font-size: 10.5px;top: 65%;left: 39.5%;}
+div .vrez_a {top: 12.5%;left: 9.5%;}
 div .footer_a {margin-top: -1%;}
+div .tire2_a {top: 17.1%;}
+.about3_a img {width: 80%;}
+div .tire5_a {left: 9%;top: 46.7%;}
+.house img {width: 26.1%;}
+div .house {margin-top: 17.5%;}
+div .tire4_a {top: 61.2%;}
+div .tire7_a {top: 68.6%;}
+div .about3_a {margin-left: 8.7%;margin-top: -26%;}
+div .prostranstvotxt_a {left: 12%;}
+div .booktxt_a {left: 74.6%;}
+div .prostranstvotxt_a, div .booktxt_a {top: 91.5%;}
+div .tire3_a {transform: rotate(0deg);}
+div .veta_a {left: 12%;}
+div .book {margin-top: 18.7%;margin-left: 71%;}
+.book img {width: 16.5%;}
+}
 
+/* GEROI */
+
+@media all and (max-width: 1440px) and (min-width: 900px){
+div .tire1_g, div .tire2_g, div .tire3_g, div .tire6_g, div .tire7_g, div .tire8_g, div .tire10_g, div .tire11_g, div .tire12_g, div .tire9_g {font-size: 23px;}
+div .geroihead, div .otziv, div .cupitbilet {font-size: 33px;}
+div .stastxt, div .stastxt, div .wearehappy, div .veta_g, div .ha_g, div .antoninatxt, div .geroiabout, div .antract, div .agetxt, div .writerwho, div .writer, div .actorswho, div .actors, div .directorwho, div .director {font-size: 16px;}
+div .rightl, div .leftl, div .timecode, div .yaroslavtxt {font-size: 16px;}
+div .antonina, div .stas, div .yaroslav, div .noticket1, div .noticket2, div .yesticket1, div .yesticket2, div .date1, div .date2, div .date3, div .date4 {font-size: 23px;}
+div .geroi {margin-left: 10.3%;margin-top: 17.1%;}
+div .geroihead {top: 4.5%;left: 42.5%;}
+div .agetxt, div .antract {top: 4.8%;}
+.next_button img, .next_previous img {width: 77%;}
+div .next {margin-left: 91%;}
+div .next_previous {margin-top: 1.6%;}
+div .cupitbilet {left: 44%;}
+div .tire11_g {top: 95%;}
+div .date1qvadratbig {top: 33%;}
+div .date2qvadratbig {top: 40%;}
+div .date3qvadratbig {top: 47%;}
+div .date4qvadratbig {top: 54%;}
+div .actors {left: 38.7%;}
+div .actorswho {left: 54.3%;}
+div .writerwho {left: 87.3%;}
+div .writer {left: 69%;}
+div .date4qvadrat {top: -1.6%;height: 103.5%;}
+div .date3qvadrat {height: 102.4%;}
+div #ticketqvadrat4 {bottom: 104.95%;height: 103.4%;}
+div #ticketqvadrat3 {height: 101.4%;}
+div .ticketqvadrat2 {height: 102.4%;}
+}
+
+@media all and (max-width: 1024px) and (min-width: 768px) and (orientation:landscape) {
+div .tire1_g, div .tire2_g, div .tire3_g, div .tire6_g, div .tire7_g, div .tire8_g, div .tire10_g, div .tire11_g, div .tire12_g, div .tire9_g, div .tire5_g, div .tire4_g {font-size: 16.5px;}
+div .rightl, div .leftl, div .timecode {font-size: 16px;}
+div .stastxt, div .stastxt, div .wearehappy, div .veta_g, div .ha_g, div .antoninatxt, div .geroiabout, div .antract, div .agetxt, div .writerwho, div .writer, div .actorswho, div .actors, div .directorwho, div .director, div .yaroslavtxt{font-size: 11px;}
+div .geroihead, div .otziv, div .cupitbilet {font-size: 26px;}
+div .antonina, div .stas, div .yaroslav, div .noticket1, div .noticket2, div .yesticket1, div .yesticket2, div .date1, div .date2, div .date3, div .date4 {font-size: 17px;}
+div .rightl, div .leftl, div .timecode {font-size: 12px;}
+div .date1qvadrat {height: 104%;top: -2%;}
+div .ticketqvadrat1 {top: -106%;height: 104.2%;}
+div .date4qvadrat {height: 102.5%;}
+div #ticketqvadrat4 {bottom: 103.95%;height: 102.4%;}
+div .next {margin-top: -5%;}
+div .next_button img, div .next_previous img {width: 61%;}
+div .footer_g {margin-top: 4%;}
+div .next_previous {margin-top: 2.8%;}
+}
+
+@media all and (max-width: 1024px) and (min-width: 768px) and (orientation:portrait) {
+div .tire1_g, div .tire2_g, div .tire3_g, div .tire6_g, div .tire7_g, div .tire8_g, div .tire10_g, div .tire11_g, div .tire12_g, div .tire9_g, div .tire5_g, div .tire4_g {font-size: 12.5px;}
+div .rightl, div .leftl, div .timecode {font-size: 16px;}
+div .stastxt, div .stastxt, div .wearehappy, div .veta_g, div .ha_g, div .antoninatxt, div .geroiabout, div .antract, div .agetxt, div .writerwho, div .writer, div .actorswho, div .actors, div .directorwho, div .director, div .yaroslavtxt{font-size: 9px;}
+div .geroihead, div .otziv, div .cupitbilet {font-size: 18px;}
+div .antonina, div .stas, div .yaroslav, div .noticket1, div .noticket2, div .yesticket1, div .yesticket2, div .date1, div .date2, div .date3, div .date4 {font-size: 12px;}
+div .rightl, div .leftl, div .timecode {font-size: 9px;}
+div .date1qvadrat {height: 104%;top: -2%;}
+div .ticketqvadrat1 {top: -106%;height: 104.2%;}
+div .date4qvadrat {height: 102.5%;}
+div #ticketqvadrat4 {bottom: 103.95%;height: 102.4%;}
+div .next {margin-left: 92.3%;margin-top: -5.2%;}
+div .next_button img, div .next_previous img {width: 61%;}
+div .footer_g {margin-top: 4.4%;}
+div .next_previous {margin-top: 4.3%;}
+div .geroi {margin-left: 10.6%;}
+div .geroihead {top: 4.4%;left: 44%;}
+div .antract {left: 80%;}
+div .agetxt, div .antract {top: 5%;}
+div .writerwho {left: 88.5%;}
+div .stasrate {margin-left: 87.5%;}
+div .cupitbilet {top: 66.2%;left: 46%;}
+div .date1qvadratbig, div .date2qvadratbig, div .date3qvadratbig, div .date4qvadratbig {width: 85%;}
+div .date1qvadrat {left: -0.2%;}
+div .date2qvadrat {height: 102.8%;left: -0.2%;}
+div .date3qvadrat {height: 103.4%;left: -0.2%;top: -2%;}
+div .date4qvadrat {height: 103.5%;left: -0.2%;top: -2.6%;}
+div .ticketqvadrat2 {margin-top: -7.7%;height: 103.4%;}
+div #ticketqvadrat3 {bottom: 105.4%;height: 103.4%;}
+div .next_button img, div .next_previous img {width: 45%;}
 }

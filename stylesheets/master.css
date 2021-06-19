@@ -49,7 +49,7 @@ position: absolute;
 
 h2 {
 font-family: "Apoc";
-font-size: 27px;
+font-size: 29px;
 color: white;
 position: absolute;
 opacity: 1;
@@ -88,9 +88,9 @@ outline-style: none;
 .swal-title {
 color: black;
 font-family: "Apoc";
-font-size: 35px;
-left: 5px;
-top: 8px;
+font-size: 39px;
+left: 8px;
+top: 10px;
 }
 
 .swal-modal {
@@ -99,8 +99,8 @@ height: 230px;
 
 .swal-button--confirm {
 background-color: black !important;
-left: -400px;
-top: 27px;
+left: -432px;
+top: 22px;
 outline-style: none;
 }
 
@@ -111,6 +111,9 @@ background-color: #FF0000 !important;
 .swal-button{
 background-color: black;
 border-radius: 0px;
+height: 46px;
+width: 138px;
+font-size: 19px;
 }
 
 .swal-button__loader {
@@ -120,8 +123,8 @@ background-color: black;
 .swal-button--cancel {
 background-color: black;
 color: white;
-left: -120px;
-top: 27px;
+left: -133px;
+top: 22px;
 outline-style: none;
 }
 
@@ -278,7 +281,7 @@ background-color: white;
 
 /* TEXT */
 
-.contacttxt, .booktxt, .prostranstvotxt, .teamtxt, .abouttxt, .repertuartxt, .plakat2txt, .veta, .tickets1txt, .tickets2txt, .tickets3txt, .veta_a, .veta_t, .veta_b, .veta_g, #ticketqvadrat3, #ticketqvadrat4, .veta_cn, .veta_ss, #ticketqvadrat2cn, .ticketqvadrat1_cn, .ticketqvadrat3_cn, .ticketqvadrat4_cn, .ticketqvadrat2_ss, .ticketqvadrat3_ss
+.contacttxt, .booktxt, .prostranstvotxt, .teamtxt, .abouttxt, .repertuartxt, .plakat2txt, .veta, .tickets1txt, .tickets2txt, .tickets3txt, .veta_a, .veta_t, .veta_b, .veta_g, #ticketqvadrat3, #ticketqvadrat4, .veta_cn, .veta_ss, #ticketqvadrat2cn, #ticketqvadrat1_cn, #ticketqvadrat3_cn, #ticketqvadrat4_cn, .ticketqvadrat2_ss, .ticketqvadrat3_ss
 {cursor: pointer;}
 
 .ticketqvadrat4_ss, .veta_pr {
@@ -294,7 +297,7 @@ top: 1%;
 }
 
 .contacttxt {
-top: 10%;
+top: 9.5%;
 left: 14%;
 }
 
@@ -1634,7 +1637,7 @@ top: 50%;
 .footer_g {
 width: 100%;
 height: 3%;
-margin-top: -0.5%;
+margin-top: 3.5%;
 background-color: white;
 border: 1px solid white;
 }
@@ -1893,11 +1896,11 @@ box-sizing: border-box;
 background-color: #C4C4C4;
 }
 
-#ticketqvadrat3, #ticketqvadrat4, .ticketqvadrat1_cn, #ticketqvadrat2cn, .ticketqvadrat3_cn, .ticketqvadrat4_cn, .ticketqvadrat2_ss, .ticketqvadrat3_ss, .ticketqvadrat4_ss {
+#ticketqvadrat3, #ticketqvadrat4, #ticketqvadrat1_cn, #ticketqvadrat2cn, #ticketqvadrat3_cn, #ticketqvadrat4_cn, .ticketqvadrat2_ss, .ticketqvadrat3_ss, .ticketqvadrat4_ss {
 background-color: white;
 }
 
-#ticketqvadrat3:hover, #ticketqvadrat4:hover, .circle_question:hover, .ticketqvadrat1_cn:hover, #ticketqvadrat2cn:hover, .ticketqvadrat3_cn:hover, .ticketqvadrat4_cn:hover, .ticketqvadrat2_ss:hover, .ticketqvadrat3_ss:hover, .ticketqvadrat4_ss:hover {
+#ticketqvadrat3:hover, #ticketqvadrat4:hover, .circle_question:hover, #ticketqvadrat1_cn:hover, #ticketqvadrat2cn:hover, #ticketqvadrat3_cn:hover, #ticketqvadrat4_cn:hover, .ticketqvadrat2_ss:hover, .ticketqvadrat3_ss:hover, .ticketqvadrat4_ss:hover {
 background-color:#FF0000;
 }
 
@@ -1937,7 +1940,7 @@ margin-left: 9.3%;
 margin-top: 17%;
 }
 
-.geroi_img, .antoninarate_img, .yaroslavrate_img, .stasrate_img  {
+.geroi_img, .antoninarate_img, .yaroslavrate_img, .stasrate_img, .next_img  {
 position: absolute;
 }
 
@@ -1980,6 +1983,33 @@ margin-top: 2%;
 
 .burger1_g{
 width: 17%;
+}
+
+/* .next_button {
+width: 15%;
+} */
+
+/* .next_img {
+width: 1%;
+} */
+
+.next {
+width:20%;
+margin-top: -4%;
+margin-left: 89%;
+}
+
+.next:hover, .next_previous:hover, .next_cn:hover, .next_previous_cn:hover, .next_previous_ss:hover, .next_ss:hover {
+opacity: 0.75;
+}
+
+.next_previous, .next_previous_cn, .next_previous_ss {
+transform: rotate(180deg);
+width: 20%;
+}
+
+.next_previous {
+margin-top: 2%;
 }
 
 /* RESPONSIVE */
@@ -2027,7 +2057,7 @@ left: 9.3%;
 top: 34%;
 }
 
-.ticketqvadrat1_cn {
+#ticketqvadrat1_cn {
 top: -103%;
 left: 78.1%;
 height: 103%;
@@ -2041,21 +2071,21 @@ bottom: 102.6%;
 height: 102%;
 }
 
-#ticketqvadrat2cn, .ticketqvadrat3_cn, .ticketqvadrat4_cn {
+#ticketqvadrat2cn, #ticketqvadrat3_cn, #ticketqvadrat4_cn {
 margin-left: 78.1%;
 }
 
-.ticketqvadrat3_cn {
+#ticketqvadrat3_cn {
 margin-top: -8.25%;
 height: 101%;
 }
 
-.ticketqvadrat4_cn {
+#ticketqvadrat4_cn {
 margin-top: -8.35%;
 height: 101.6%;
 }
 
-#ticketqvadrat2cn, .ticketqvadrat3_cn, .ticketqvadrat4_cn, .ticketqvadrat2_ss, .ticketqvadrat3_ss, .ticketqvadrat4_ss {
+#ticketqvadrat2cn, #ticketqvadrat3_cn, #ticketqvadrat4_cn, .ticketqvadrat2_ss, .ticketqvadrat3_ss, .ticketqvadrat4_ss {
 position: relative;
 width: 22%;
 box-sizing: border-box;
@@ -2113,6 +2143,21 @@ margin-top: 25.3%;
 margin-left: 42.2%;
 margin-top: 38.9%;
 }
+
+.next_cn {
+margin-top: 52.7%;
+margin-left: 89%;
+}
+
+.next_previous_cn {
+margin-top: 54.5%;
+}
+
+.next_previous_cn, .next_previous_ss, .next_previous {
+margin-left: -9%;
+}
+
+
 /* RESPONSIVE */
 
 @media all and (min-width: 568px){
@@ -2213,6 +2258,16 @@ width: 17%;
 position: absolute;
 width: 81%;
 height: 25%;
+}
+
+.next_ss {
+width:20%;
+margin-top: 53.5%;
+margin-left: 89%;
+}
+
+.next_previous_ss {
+margin-top: 55.3%;
 }
 
 /* RESPONSIVE */

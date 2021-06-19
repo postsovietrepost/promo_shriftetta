@@ -11,8 +11,8 @@
     <meta charset="utf-8">
         <link rel="stylesheet" href="../stylesheets/master.css">
     <title>Промо-сайт «Шрифтетты»</title>
-    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
     <style media="screen">
 
 ::-webkit-scrollbar {
@@ -147,7 +147,7 @@ height: auto;
 <div class="date1qvadrat">
   <h2 class="date1">26 мая, ср</h2>
 </div>
-  <button type="button" class="ticketqvadrat1_cn" name="button">
+  <button type="button" id="ticketqvadrat1_cn" name="button">
     <h2 class="yesticket1">2000 — 2500₽</h2>
   </button>
 </div>
@@ -169,7 +169,7 @@ height: auto;
 <div class="date3qvadrat_cn">
   <h2 class="date3">8 июля, чт</h2>
 </div>
-<div class="ticketqvadrat3_cn">
+<div id="ticketqvadrat3_cn">
   <h2 class="yesticket1">2000 — 2500₽</h2>
 </div>
 </div>
@@ -181,14 +181,20 @@ height: auto;
   <h2 class="date4">9 июля, пт</h2>
 </div>
 
-<div class="ticketqvadrat4_cn">
+<div id="ticketqvadrat4_cn">
 <h2 class="yesticket2">1500 — 2500₽</h2>
 </div>
 </div>
 
 <p class="tire11_g">------------------------------------------------------------------------------------------------------------------------------------------------------------</p>
 
+<div class="next_cn">
+<p class="next_button"><a href="../pages/shriftsad.html"><img class="next_button" src="../images/next.svg" alt=""></a></p>
+</div>
 
+<div class="next_previous_cn">
+<p class="next_button"><a href="../pages/geroi.html"><img class="next_button" src="../images/next.svg" alt=""></a></p>
+</div>
 </div>
 
   <div class="footer_cn">
@@ -202,6 +208,7 @@ height: auto;
 </div>
 
 <script src="../js/buyticket1.js" charset="utf-8"></script>
+<script src="../js/buyticket2.js" charset="utf-8"></script>
 <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 
 </body>

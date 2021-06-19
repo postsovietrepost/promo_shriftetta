@@ -12,11 +12,9 @@
         <!-- <link rel="stylesheet" href="../stylesheets/master.css"> -->
         <link rel="stylesheet" type="text/css" href="../stylesheets/master.css">
     <title>Промо-сайт «Шрифтетты»</title>
-    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 
-    <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
-  <script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
   <script src="../js/slick.min.js"></script>
 
     <style media="screen">
@@ -86,6 +84,7 @@ margin-top: 13%;
 
 button.slick-prev.slick-arrow, button.slick-next.slick-arrow {
 background: black;
+font-size: 85px;
 }
 
 button {
@@ -121,8 +120,6 @@ left: 68%;
     <div><img src="../images/lozha.svg" alt=""></div>
 
     </div>
-
-<button class="slick-nextt slick-arroww" aria-label="Next" type="button" style="display: block;">></button>
 
 <h3 class="laungeslider" style="visibility:visible">Лаунж-зона, 1 этаж</h3>
 <h3 class="vhodslider" style="visibility:hidden">Вход, 1 этаж</h3>
@@ -318,6 +315,7 @@ left: 68%;
 <script>
   $(document).ready(function(){
       $('.slider_pr').slick({
+         variableHeight: true,
         infinite: true,
       speed: 500,
       fade: true,

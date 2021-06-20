@@ -1644,7 +1644,7 @@ border: 1px solid white;
 
 /* TEXT */
 
-.tire1_g, .tire2_g, .tire3_g, .tire6_g, .tire7_g, .tire8_g .tire10_g, .tire11_g, .tire12_g, .agetxt, .geroiabout, .director, .antoninatxt, .yaroslavtxt, .date1qvadratbig, .date2qvadratbig, .date3qvadratbig, .date4qvadratbig {
+.tire1_g, .tire2_g, .tire3_g, .tire6_g, .tire7_g, .tire8_g .tire10_g, .tire11_g, .tire12_g, .tire13_g, .agetxt, .geroiabout, .director, .antoninatxt, .yaroslavtxt, .date1qvadratbig, .date2qvadratbig, .date3qvadratbig, .date4qvadratbig {
 left: 9.3%;
 }
 
@@ -2268,12 +2268,6 @@ margin-left: 89%;
 
 .next_previous_ss {
 margin-top: 55.3%;
-}
-
-/* RESPONSIVE */
-
-@media all and (min-width: 568px){
-.burger2_ss {display:none;}
 }
 
 /* PROSTRANSTVO */

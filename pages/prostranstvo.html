@@ -19,18 +19,18 @@
 
     <style media="screen">
 
-      ::-webkit-scrollbar {
-      width: 4px;
-      background-color: white;
-      height: 5px;
-      }
-      ::-webkit-scrollbar-thumb {
-      background-color: red;
-      border-radius: 3px;
-      }
-      ::-webkit-scrollbar-thumb:hover {
-      background-color: #890000;
-      }
+::-webkit-scrollbar {
+width: 4px;
+background-color: white;
+height: 5px;
+}
+::-webkit-scrollbar-thumb {
+background-color: red;
+border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+background-color: #890000;
+}
 
 body {
 width: 100%;
@@ -101,6 +101,21 @@ top: 7%;
 left: 68%;
 }
 
+.vhodsvg {
+  margin-left: 101%;
+  margin-top: -55%;
+}
+
+.laungesvg {
+  margin-top: 1%;
+      margin-left: 0%;
+}
+
+.slick-list {
+  margin-top: -1.5%;
+}
+
+
 </style>
 
 <body>
@@ -112,28 +127,21 @@ left: 68%;
 
     <div class="slider_pr">
 
-    <div><img src="../images/launge.svg" alt=""></div>
-    <div><img src="../images/vhod.svg" alt=""></div>
+    <div><img class="laungesvg" src="../images/launge.svg" alt=""></div>
+    <div><img class="vhodsvg" src="../images/vhod.svg" alt=""></div>
     <div><img src="../images/bar.svg" alt=""></div>
-    <div><img src="../images/bathroom.svg" alt=""></div>
-    <div><img src="../images/artpr.svg" alt=""></div>
-    <div><img src="../images/lozha.svg" alt=""></div>
 
     </div>
 
 <h3 class="laungeslider" style="visibility:visible">Лаунж-зона, 1 этаж</h3>
 <h3 class="vhodslider" style="visibility:hidden">Вход, 1 этаж</h3>
 <h3 class="barslider" style="visibility:hidden">Бар, 3 этаж</h3>
-<h3 class="bathroomslider" style="visibility:hidden">Уборная, паттерн на полу, 1 этаж</h3>
-<h3 class="artprslider" style="visibility:hidden">Арт-пространство, 2 этаж</h3>
-<h3 class="lozhaslider" style="visibility:hidden">Левая ложа, 2 этаж</h3>
 
 </div>
 
 <div class="second_pr">
   <div class="burger_pr">
   <p class="burger1_pr"><a href="../index.html"><img class="burger1_pr" src="../images/burger1.svg" alt=""></a></p>
-  <img class="burger2_pr" src="../images/burger2.svg" alt="">
   </div>
 
   <p class="tire1_pr">------------------------------------------------------------------------------------------------------------------------------------------------------------</p>
@@ -323,6 +331,8 @@ left: 68%;
 });
   });
 </script>
+<script src="../js/sliderforimg.js" charset="utf-8"></script>
+
 
 </body>
 </html>

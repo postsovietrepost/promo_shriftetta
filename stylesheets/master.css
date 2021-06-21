@@ -284,7 +284,7 @@ background-color: white;
 .contacttxt, .booktxt, .prostranstvotxt, .teamtxt, .abouttxt, .repertuartxt, .plakat2txt, .veta, .tickets1txt, .tickets2txt, .tickets3txt, .veta_a, .veta_t, .veta_b, .veta_g, #ticketqvadrat3, #ticketqvadrat4, .veta_cn, .veta_ss, #ticketqvadrat2cn, #ticketqvadrat1_cn, #ticketqvadrat3_cn, #ticketqvadrat4_cn, .ticketqvadrat2_ss, .ticketqvadrat3_ss
 {cursor: pointer;}
 
-.ticketqvadrat4_ss, .veta_pr {
+.ticketqvadrat4_ss, .veta_pr, #ticketqvadrat1_ss {
 cursor: pointer;}
 
 .contacttxt:hover, .booktxt:hover, .prostranstvotxt:hover, .teamtxt:hover, .abouttxt:hover, .repertuartxt:hover, .plakat2txt:hover, .veta_r:hover, .veta_a:hover, .veta_t:hover, .veta_b:hover, .veta_g:hover, .veta_cn:hover, .veta_ss:hover, .veta_pr:hover {
@@ -1707,12 +1707,16 @@ top: 38.6%;
 transform: rotate(90deg);
 }
 
-.agetxt, .antract  {
+.agetxt, .antract, .antract_ss  {
 top: 4.5%;
 }
 
 .antract {
 left: 78%;
+}
+
+.antract_ss {
+left: 79%;
 }
 
 .geroihead {
@@ -1787,12 +1791,12 @@ top: 66.1%;
 left: 43%;
 }
 
-.date1, .date2, .date3, .date4 {
+.date1, .date2, .date3, .date4, .date1_cn, .date1_ss {
 top: 40%;
 left: 27%;
 }
 
-.date1, .date2, .date3, .date4 {
+.date1, .date2, .date3, .date4, .date1_cn, .date1_ss {
 color: white;
 }
 
@@ -1844,7 +1848,7 @@ top: -0.6%;
 height: 101.5%;
 }
 
-.date1qvadrat, .date2qvadrat, .date3qvadrat, .date4qvadrat, .date3qvadrat_cn, .date4qvadrat_cn {
+.date1qvadrat, .date2qvadrat, .date3qvadrat, .date4qvadrat, .date3qvadrat_cn, .date4qvadrat_cn, .date2qvadrat_cn, .date1qvadrat_cn, .date1qvadrat_ss, .date2qvadrat_ss, .date3qvadrat_ss, .date4qvadrat_ss {
 position: relative;
 width: 22%;
 border: 1px solid #FFFFFF;
@@ -1896,11 +1900,11 @@ box-sizing: border-box;
 background-color: #C4C4C4;
 }
 
-#ticketqvadrat3, #ticketqvadrat4, #ticketqvadrat1_cn, #ticketqvadrat2cn, #ticketqvadrat3_cn, #ticketqvadrat4_cn, .ticketqvadrat2_ss, .ticketqvadrat3_ss, .ticketqvadrat4_ss {
+#ticketqvadrat3, #ticketqvadrat4, #ticketqvadrat1_cn, #ticketqvadrat2cn, #ticketqvadrat3_cn, #ticketqvadrat4_cn, .ticketqvadrat2_ss, .ticketqvadrat3_ss, .ticketqvadrat4_ss, #ticketqvadrat1_ss {
 background-color: white;
 }
 
-#ticketqvadrat3:hover, #ticketqvadrat4:hover, .circle_question:hover, #ticketqvadrat1_cn:hover, #ticketqvadrat2cn:hover, #ticketqvadrat3_cn:hover, #ticketqvadrat4_cn:hover, .ticketqvadrat2_ss:hover, .ticketqvadrat3_ss:hover, .ticketqvadrat4_ss:hover {
+#ticketqvadrat3:hover, #ticketqvadrat4:hover, .circle_question:hover, #ticketqvadrat1_cn:hover, #ticketqvadrat2cn:hover, #ticketqvadrat3_cn:hover, #ticketqvadrat4_cn:hover, .ticketqvadrat2_ss:hover, .ticketqvadrat3_ss:hover, .ticketqvadrat4_ss:hover, #ticketqvadrat1_ss:hover {
 background-color:#FF0000;
 }
 
@@ -1972,6 +1976,11 @@ margin-left: 83.8%;
 margin-top: -13.2%;
 }
 
+.vladimirrate {
+margin-left: 83.8%;
+margin-top: -13.2%;
+}
+
 .stasrate_img {
 width: 6.4%;
 }
@@ -2010,12 +2019,6 @@ width: 20%;
 
 .next_previous {
 margin-top: 2%;
-}
-
-/* RESPONSIVE */
-
-@media all and (min-width: 568px){
-.burger2_g {display:none;}
 }
 
 /* CURSNA */
@@ -2057,6 +2060,11 @@ left: 9.3%;
 top: 34%;
 }
 
+.cursnahead {
+top: 4%;
+left: 40.5%;
+}
+
 #ticketqvadrat1_cn {
 top: -103%;
 left: 78.1%;
@@ -2085,7 +2093,7 @@ margin-top: -8.35%;
 height: 101.6%;
 }
 
-#ticketqvadrat2cn, #ticketqvadrat3_cn, #ticketqvadrat4_cn, .ticketqvadrat2_ss, .ticketqvadrat3_ss, .ticketqvadrat4_ss {
+#ticketqvadrat2cn, #ticketqvadrat3_cn, #ticketqvadrat4_cn, .ticketqvadrat2_ss, .ticketqvadrat3_ss, .ticketqvadrat4_ss, #ticketqvadrat1_ss {
 position: relative;
 width: 22%;
 box-sizing: border-box;
@@ -2093,6 +2101,22 @@ box-sizing: border-box;
 
 .tire2_cn {
 top: 32.1%;
+}
+
+.date1qvadrat_cn {
+height: 102%;
+left: -0.1%;
+top: -1%;
+}
+
+.date2qvadrat_cn {
+height: 101.8%;
+left: -0.1%;
+top: -1%;
+}
+
+.date4qvadrat_cn {
+height: 101.5%;
 }
 
 .date3qvadrat_cn {
@@ -2134,6 +2158,11 @@ margin-top: 2%;
 width: 17%;
 }
 
+.cursnaimg {
+margin-left: 9.3%;
+margin-top: 17%;
+}
+
 .antoninarate_cn {
 margin-left: 42.1%;
 margin-top: 25.3%;
@@ -2155,13 +2184,6 @@ margin-top: 54.5%;
 
 .next_previous_cn, .next_previous_ss, .next_previous {
 margin-left: -9%;
-}
-
-
-/* RESPONSIVE */
-
-@media all and (min-width: 568px){
-.burger2_cn {display:none;}
 }
 
 /* SHRIFTSAD */
@@ -2195,6 +2217,11 @@ background-color: white;
 
 /* TEXT */
 
+.sshead {
+top: 4%;
+left: 40.5%;
+}
+
 .tire1_ss, .tire2_ss, .shriftsadabout {
 left: 9.3%;
 }
@@ -2211,6 +2238,12 @@ top: 33.6%;
 top: 35.5%;
 }
 
+#ticketqvadrat1_ss {
+top: -103%;
+left: 78.1%;
+height: 102.2%;
+}
+
 .ticketqvadrat2_ss, .ticketqvadrat3_ss  {
 margin-left: 78.1%;
 margin-top: -8.4%;
@@ -2221,6 +2254,35 @@ height: 102%;
 margin-left: 78.1%;
 margin-top: -8.45%;
 height: 102%;
+}
+
+.date1qvadrat_ss {
+height: 102%;
+left: -0.1%;
+top: -1%;
+}
+
+.date2qvadrat_ss {
+height: 101.8%;
+left: -0.1%;
+top: -1%;
+}
+
+.date4qvadrat_ss {
+height: 101.5%;
+}
+
+.date3qvadrat_ss {
+height: 101.2%;
+}
+
+.date3qvadrat_ss, .date4qvadrat_ss {
+left: -0.1%;
+top: -0.8%;
+}
+
+.date4qvadrat_ss {
+height: 101.5%;
 }
 
 .veta_ss {

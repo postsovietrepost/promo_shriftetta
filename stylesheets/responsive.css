@@ -439,6 +439,8 @@ div .gtxt {top: 80.9%;left: 17.3%;}
 
 @media all and (max-width: 1792px) and (min-width: 1057px){
 div .bookmobileslider {display: none;}
+div .tire10_b {display: none;}
+
 }
 
 @media all and (max-width: 1440px) and (min-width: 900px){
@@ -473,6 +475,8 @@ div .book4 {margin-top: 138.3%;}
 div .stool_b, div .number1_b, div .number4_b {left: 38%;}
 div .number2_b, div .sofa_b {left: 71%;}
 .book1row img, .book2row img, .book3row img, .book4row img, .book5row img, .book6row img {width: 79.3%;left: 10.5%;margin-top: 0.5%;}
+div .tire10_b {display: none;}
+
 }
 
 @media all and (max-width: 1024px) and (min-width: 768px) and (orientation:landscape) {
@@ -503,9 +507,14 @@ div .tire3_b {top: 49.7%;}
 div .tire4_b, div .tire5_b {top: 74.2%;}
 div .number1_b {top: 51.2%;}
 div .stool_b {top: 60.3%;}
+div .qartochka {left: 15.4%;}
+div .tire10_b {display: none;}
+
 }
 
 @media all and (max-width: 1024px) and (min-width: 768px) and (orientation:portrait) {
+div .bookmobileslider {display: none;}
+div .qartochka {left: 16.4%;}
 div .tire1_b, div .tire2_b, div .tire3_b, div .tire6_b, div .tire7_b, div .tire8_b {font-size: 12.4px;}
 .book1row img, .book2row img, .book3row img, .book4row img, .book5row img, .book6row img {width: 77.3%;left: 12.5%;}
 div .izdatelstvo, div .moscow, div .bookabout, div .firstissue, div .readfull, div .poof_b, div .number4_b, div .table_b, div .number3_b, div .sofa_b, div .number2_b, div .stool_b, div .number1_b, div .ha_b, div .veta_b {font-size: 9px;}
@@ -546,17 +555,21 @@ div .number2_b, div .sofa_b {left: 72%;}
 div .footer_b {margin-top: -1.5%;}
 div .poof_b {top: 97.3%;}
 div .book4 {margin-left: 74.3%;margin-top: 136.3%;}
-div .qartochka {left: 15.4%;}
+div .tire10_b {display: none;}
 }
 
 @media all and (max-width: 568px) and (min-width: 320px) and (orientation:portrait) {
-div .tire1_b, div .tire2_b, div .tire3_b, div .tire6_b, div .tire7_b, div .tire8_b {font-size: 6px;width: 81%;}
+div .tire1_b, div .tire2_b, div .tire3_b, div .tire6_b, div .tire7_b, div .tire8_b, div .tire10_b {font-size: 6px;width: 81%;}
 div .tire9_b {font-size: 6px;}
 .book1row img, .book2row img, .book3row img, .book4row img, .book5row img, .book6row img {width: 77.3%;left: 12.5%;}
 div .izdatelstvo, div .moscow, div .bookabout, div .readfull, div .poof_b, div .number4_b, div .table_b, div .number3_b, div .sofa_b, div .number2_b, div .stool_b, div .number1_b, div .ha_b, div .veta_b {font-size: 5px;}
 div .bookstar1, div .bookstar2, div .bookstar3, div .bookstar4, div .tire5_b, div .book1row, div .book2row, div .book3row, div .book4row, div .book5row, div .book6row, div .firstissue {display: none;}
 div .readfull {width: 40%;}
-
+div .tire10_b {transform: rotate(90deg);}
+div .tire1_b {top: 4.5%;}
+div .qartochka {top: 7%;}
+div .tire2_b {top: 21.4%;}
+div .bookmobileslider {left: 29%;top: 22%;}
 }
 
 /* ABOUT */
@@ -992,11 +1005,13 @@ div .ticketqvadrat2_ss, div .ticketqvadrat3_ss, div .ticketqvadrat4_ss, div #tic
   div .date1qvadrat_ss {height: 103%;left: -0.2%;top: -2%;}
   div .date2qvadrat_ss {height: 102.8%;left: -0.2%;top: -2%;}
   div .ticketqvadrat4_ss {margin-top: -8.3%;}
-  div .next_ss {margin-top: 92.9%;margin-left: 92.8%;}
+  div .next_ss {margin-top: 92.9%;margin-left: 89.8%;}
   div .next_previous_ss {margin-top: 100.6%;margin-left: -7%;}
   div .date1qvadrat_ss, div .date2qvadrat_ss, div .date3qvadrat_ss, div .date4qvadrat_ss {border: solid 1px black;}
   div .ticketqvadrat2_ss, div .ticketqvadrat3_ss, div .ticketqvadrat4_ss, div #ticketqvadrat1_ss {width: 34%;height: 72.2%;}
 div .date1_ss {top: -105%;left: -3%;font-size: 7px;}
-
+div #ticketqvadrat1_ss {top: -210%;left: 66.1%;}
+div .ticketqvadrat3_ss, div .ticketqvadrat2_ss {margin-top: -31.6%;margin-left: 66.1%;}
+div .ticketqvadrat4_ss {margin-top: -30.3%;margin-left: 67.1%;}
 
 }

@@ -689,9 +689,9 @@ div .book {margin-top: 18.7%;margin-left: 71%;}
 /* GEROI */
 @media all and (max-width: 1920px) and (min-width: 1792px){
 div .tire13_g, div .tire14_g, div .tire15_g, div .tire16_g {display: none;}
-div .tire1_g, div .tire2_g, div .tire3_g, div .tire6_g, div .tire7_g, div .tire8_g, div .tire10_g, div .tire11_g, div .tire12_g, div .tire13_g, div .tire4_g, div .tire5_g, div .tire9_g {font-size: 30px;}
+/* div .tire1_g, div .tire2_g, div .tire3_g, div .tire6_g, div .tire7_g, div .tire8_g, div .tire10_g, div .tire11_g, div .tire12_g, div .tire13_g, div .tire4_g, div .tire5_g, div .tire9_g {font-size: 30px;}
 div .geroihead, div .otziv, div .cupitbilet {font-size: 52px;}
-div .otziv {left: 40%;}
+div .otziv {left: 40%;} */
 }
 
 @media all and (max-width: 1440px) and (min-width: 900px){
@@ -879,8 +879,8 @@ div .noticket1, div .noticket2 {top: 38%;left: 27%;}
 /* CURSNA */
 @media all and (max-width: 1920px) and (min-width: 1792px){
 div .tire17_cn, div .tire16_cn, div .tire15_cn, div .tire14_cn {display: none;}
-div .cursnahead {font-size: 52px;}
-div .tire2_cn {font-size: 30px;}
+/* div .cursnahead {font-size: 52px;}
+div .tire2_cn {font-size: 30px;} */
 }
 
 @media all and (max-width: 1440px) and (min-width: 900px){
@@ -971,10 +971,14 @@ div #ticketqvadrat1_cn, div #ticketqvadrat2cn, div #ticketqvadrat3_cn, div #tick
 }
 
 /* SHRIFTSAD */
-@media all and (max-width: 1920px) and (min-width: 1792px){
+@media all and (max-width: 1920px) and (min-width: 1793px){
 div .tire14_ss, div .tire15_ss, div .tire16_ss, div .tire17_ss {display: none;}
 div .sshead {font-size: 52px;}
 div .tire2_ss, div .tire1_ss {font-size: 30px;}
+}
+
+@media all and (max-width: 1792px){
+div .tire14_ss, div .tire15_ss, div .tire16_ss, div .tire17_ss {display: none;}
 }
 
 @media all and (max-width: 1440px) and (min-width: 900px){
@@ -1073,7 +1077,7 @@ div .tire18_pr, div .tire19_pr, div .tire22_pr, div .tire23_pr, div .tire24_pr, 
 @media all and (max-width: 1440px) and (min-width: 900px){
   div .tire1_pr, div .tire2_pr, div .tire3_pr, div .tire5_pr, div .tire6_pr, div .tire7_pr, div .tire10_pr, div .tire11_pr, div .tire12_pr, div .tire13_pr, div .tire16_pr, div .tire17_pr, div .tire25_pr, div .tire26_pr {font-size: 22px;}
   div .tire18_pr, div .tire19_pr, div .tire22_pr, div .tire23_pr, div .tire24_pr, div .tire27_pr, div .tire28_pr, div .tire4_pr, div .tire8_pr, div .tire9_pr, div .tire14_pr, div .tire15_pr, div .tire20_pr, div .tire21_pr {font-size: 22px;}
-div .zdaniesmalltxt, div .laungesmalltxt, div .leftlozhasmtxt, div .barsmalltxt, div .podpis1, div .podpis2, div .podpis3, div .podpis4, div .ha_pr, div .veta_pr {font-size: 16px;}
+div .zdaniesmalltxt, div .laungesmalltxt, div .leftlozhasmtxt, div .barsmalltxt, div .podpis1, div .podpis2, div .podpis3, div .podpis4, div .ha_pr, div .veta_pr, div .podpis0 {font-size: 16px;}
 div .noltxt, div .odintxt, div .dvatxt, div .tritxt, div .zdanietxt, div .laungetxt, div .leftlozhatxt, div .bartxt, div .zdanievrez, div .laungevrez, div .leftlozhavrez, div .barvrez {font-size: 35px;}
 .sketch2 img, .sketch1 img {width: 33%;}
 div .noltxt, div .odintxt, div .dvatxt, div .tritxt {left: 86.9%;}
@@ -1083,7 +1087,7 @@ div .podpis1, div .podpis2, div .podpis3, div .podpis4 {left: 19.7%;}
 @media all and (max-width: 1024px) and (min-width: 768px) and (orientation:landscape) {
   div .tire1_pr, div .tire2_pr, div .tire3_pr, div .tire5_pr, div .tire6_pr, div .tire7_pr, div .tire10_pr, div .tire11_pr, div .tire12_pr, div .tire13_pr, div .tire16_pr, div .tire17_pr, div .tire25_pr, div .tire26_pr {font-size: 16.5px;}
   div .tire18_pr, div .tire19_pr, div .tire22_pr, div .tire23_pr, div .tire24_pr, div .tire27_pr, div .tire28_pr, div .tire4_pr, div .tire8_pr, div .tire9_pr, div .tire14_pr, div .tire15_pr, div .tire20_pr, div .tire21_pr {font-size: 16.5px;}
-div .zdaniesmalltxt, div .laungesmalltxt, div .leftlozhasmtxt, div .barsmalltxt, div .podpis1, div .podpis2, div .podpis3, div .podpis4, div .ha_pr, div .veta_pr {font-size: 11px;}
+div .zdaniesmalltxt, div .laungesmalltxt, div .leftlozhasmtxt, div .barsmalltxt, div .podpis1, div .podpis2, div .podpis3, div .podpis4, div .ha_pr, div .veta_pr, div .podpis0 {font-size: 11px;}
 div .noltxt, div .odintxt, div .dvatxt, div .tritxt, div .zdanietxt, div .laungetxt, div .leftlozhatxt, div .bartxt, div .zdanievrez, div .laungevrez, div .leftlozhavrez, div .barvrez {font-size: 25px;}
 .sketch2 img, .sketch1 img {width: 33%;}
 div .noltxt, div .odintxt, div .dvatxt, div .tritxt {left: 91%;}
@@ -1096,7 +1100,7 @@ div .tire4_pr {left: 32.7%;}
 @media all and (max-width: 1024px) and (min-width: 768px) and (orientation:portrait) {
 div .tire1_pr, div .tire2_pr, div .tire3_pr, div .tire5_pr, div .tire6_pr, div .tire7_pr, div .tire10_pr, div .tire11_pr, div .tire12_pr, div .tire13_pr, div .tire16_pr, div .tire17_pr, div .tire25_pr, div .tire26_pr {font-size: 12.5px;}
 div .tire18_pr, div .tire19_pr, div .tire22_pr, div .tire23_pr, div .tire24_pr, div .tire27_pr, div .tire28_pr, div .tire4_pr, div .tire8_pr, div .tire9_pr, div .tire14_pr, div .tire15_pr, div .tire20_pr, div .tire21_pr {font-size: 12.5px;}
-div .zdaniesmalltxt, div .laungesmalltxt, div .leftlozhasmtxt, div .barsmalltxt, div .podpis1, div .podpis2, div .podpis3, div .podpis4, div .ha_pr, div .veta_pr {font-size: 9px;}
+div .zdaniesmalltxt, div .laungesmalltxt, div .leftlozhasmtxt, div .barsmalltxt, div .podpis1, div .podpis2, div .podpis3, div .podpis4, div .ha_pr, div .veta_pr, div .podpis0 {font-size: 9px;}
 div .noltxt, div .odintxt, div .dvatxt, div .tritxt, div .zdanietxt, div .laungetxt, div .leftlozhatxt, div .bartxt, div .zdanievrez, div .laungevrez, div .leftlozhavrez, div .barvrez {font-size: 18px;}
 .sketch2 img, .sketch1 img {width: 33%;}
 div .noltxt, div .odintxt, div .dvatxt, div .tritxt {left: 92.2%;}
@@ -1109,7 +1113,7 @@ div .tire4_pr {left: 32.7%;}
 @media all and (max-width: 568px) and (min-width: 320px) and (orientation:portrait) {
   div .sootnosheniye_prostranstvo {padding-bottom: 576.25%;}
   div .zdaniesmall1, div .zdaniesmall2, div .tire8_pr, div .tire9_pr, div .laungesmall1, div .laungesmall2, div .tire14_pr, div .tire15_pr, div .leftlozhasm1, div .leftlozhasm2, div .tire20_pr, div .tire21_pr, div .barsmall1, div .barsmall2, div .tire25_pr, div .tire26_pr {display: none;}
-  div .podpis2, div .podpis3, div .podpis4, div .podpis1 {display: none;}
+  div .podpis2, div .podpis3, div .podpis4, div .podpis1, div .podpis0 {display: none;}
   div .tire1_pr, div .tire2_pr, div .tire3_pr, div .tire5_pr, div .tire6_pr, div .tire7_pr, div .tire10_pr, div .tire11_pr, div .tire12_pr, div .tire13_pr, div .tire16_pr, div .tire17_pr {font-size: 6.5px;width: 84%;}
   div .tire18_pr, div .tire19_pr, div .tire22_pr, div .tire23_pr, div .tire24_pr, div .tire27_pr, div .tire28_pr, div .tire4_pr {font-size: 6.5px;width: 84%;}
  div .ha_pr, div .veta_pr {font-size: 5px;}
@@ -1138,6 +1142,9 @@ div .vannaya {margin-top: 30%;}
 div .tire7_pr {top: 32.93%;}
 div .zdaniesmalltxt {top: 34.3%;}
 div .zdanie2 {margin-left: 15.6%;margin-top: 121%;}
+div .laungesvg {margin-top: 24.2%;margin-left: 20.5%;}
+div .tire1_pr {top: 3.1%;}
+div .burger1_pr {margin-top: -17%;margin-left: 1%;}
 }
 
 @media all and (max-width: 568px) and (min-width: 320px) and (orientation:landscape) {

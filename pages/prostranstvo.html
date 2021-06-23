@@ -95,12 +95,14 @@ button.slick-prev.slick-arrow{
 /* top: 21%; */
 margin-top: 12%;
     left: -13%;
+visibility: hidden;
 }
 
 button.slick-next.slick-arrow {
 /* top: 21%; */
 margin-top: 12%;
 left: 72%;
+visibility: hidden;
 }
 
 .vhodsvg {
@@ -109,13 +111,27 @@ left: 72%;
 }
 
 .laungesvg {
-  margin-top: 4.6%;
-      margin-left: 0.5%;
+  margin-top: 11.2%;
+  margin-left: 19.5%;
+}
+
+.laungesvg_pr:hover {
+  -webkit-filter: invert(85%);
+  filter: invert(85%);
+}
+
+.laungesvg_pr {
+  width: 61%;
+  position: absolute;
 }
 
 .barsvg {
   margin-top: -39%;
   margin-left: 200%;
+}
+
+.bar_svg {
+  width: 20%;
 }
 
 /* .slick-list {
@@ -131,16 +147,25 @@ left: 72%;
 <div class="content">
 
   <div class="first_pr">
+<div class="laungesvg">
+  <img class="laungesvg_pr" src="../images/launge.svg" alt="">
+</div>
+<h3 class="podpis0">Лаунж-зона, 1 этаж</h3>
 
-    <div class="slider_pr">
+
+    <!-- <div class="slider_pr">
 
     <div class="laungesvg">
       <img src="../images/launge.svg" alt="">
     </div>
-    <div class="vhodsvg"><img src="../images/vhod.svg" alt=""></div>
-    <div class="barsvg"><img src="../images/bar.svg" alt=""></div>
-
+    <div class="vhodsvg">
+      <img class="vhod_svg" src="../images/vhod.svg" alt="">
     </div>
+    <div class="barsvg">
+      <img class="bar_svg" src="../images/bar.svg" alt="">
+    </div>
+
+    </div> -->
 
 </div>
 
@@ -325,7 +350,7 @@ left: 72%;
 </div>
 </div>
 
-<script>
+<!-- <script>
   $(document).ready(function(){
       $('.slider_pr').slick({
          variableHeight: true,
@@ -335,9 +360,7 @@ left: 72%;
       cssEase: 'linear'
 });
   });
-</script>
-<script src="../js/sliderforimg.js" charset="utf-8"></script>
-
+</script> -->
 
 </body>
 </html>

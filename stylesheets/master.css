@@ -24,11 +24,6 @@ scroll-behavior: smooth;
 }
 
 img {
-  /* background-size: cover; */
-  /* position: relative; */
-  /* max-width: 100%;
-  height: auto; */
-
 max-width: 100%;
 height: auto;
 }
@@ -357,12 +352,10 @@ top: 51.5%;
 }
 
 .plakat1txt {
-/* left: 7%; */
 left: 9.7%;
 }
 
 .plakat2txt {
-/* left: 41%; */
 left: 43.2%;
 color: white;
 text-decoration: none;
@@ -374,24 +367,20 @@ opacity: 0.75;
 }
 
 .plakat3txt {
-/* left: 74.2%; */
 left: 77.5%;
 }
 
 .plakat4txt {
-/* left: 7.3%; */
 left: 9.7%;
 }
 
 .plakat5txt {
-/* left: 41%; */
 left: 41.6%;
     width: 18%;
 }
 
 .plakat6txt {
-/* left: 74.2%; */
-    left: 76.2%;
+left: 76.2%;
 }
 
 .plakat4txt, .plakat5txt, .plakat6txt  {
@@ -399,7 +388,7 @@ top: 101%;
 }
 
 .plakat3txt, .plakat2txt, .plakat1txt, .plakat4txt, .plakat5txt, .plakat6txt {
-  font-size: 19px;
+font-size: 19px;
 }
 
 .veta {
@@ -974,11 +963,6 @@ position: absolute;
 transform: rotate(4deg);
 }
 
-/* RESPONSIVE */
-@media all and (min-width: 568px){
-.burger2_a {display:none;}
-}
-
 /* TEAM */
 
 /* GRID? */
@@ -1220,12 +1204,6 @@ transform: rotate(90deg);
 transform: rotate(-90deg);
 }
 
-/* RESPONSIVE */
-
-@media all and (min-width: 568px){
-.burger2_t {display:none;}
-}
-
 /* BOOK */
 
 /* GRID? */
@@ -1356,7 +1334,6 @@ top: 60%;
 }
 
 .stool_b, .number1_b, .number4_b{
-/* left: 36%; */
 left: 38%;
 }
 
@@ -1373,7 +1350,6 @@ top: 72.4%;
 }
 
 .number3_b, .table_b {
-/* left: 9.4%; */
 left: 11.4%;
 }
 
@@ -1458,8 +1434,6 @@ position: absolute;
 }
 
 .bookstar2 {
-/* margin-left: 42%;
-margin-top: -19.1%; */
 margin-left: 40%;
 margin-top: -18.1%;
 }
@@ -1474,13 +1448,11 @@ margin-top: 88.9%;
 }
 
 .bookstar3_img, .bookstar4_img {
-/* width: 17%; */
 width: 15%;
 }
 
 .bookstar4 {
-/* margin-left: 10.5%; */
-    margin-left: 11.5%;
+margin-left: 11.5%;
 margin-top: 127.5%;
 }
 
@@ -1489,14 +1461,11 @@ transform: rotate(90deg);
 }
 
 .furniture1 {
-/* margin-left: 32.3%;
-margin-top: -19.9%; */
 margin-left: 34.3%;
-    margin-top: -17%;
+margin-top: -17%;
 }
 
 .furniture1_img {
-/* width: 34%; */
 width: 31%;
 }
 
@@ -1506,40 +1475,31 @@ margin-top: 38.9%;
 }
 
 .furniture2_img {
-/* width: 30%; */
 width: 28%;
 }
 
 .furniture3 {
-/* margin-left: 4.3%;
-margin-top: 79.9%; */
 margin-left: 5.3%;
 margin-top: 78.9%;
 }
 
 .furniture3_img {
-/* width: 26%; */
 width: 25%;
 
 }
 
 .furniture4 {
-/* margin-left: 34%;
-margin-top: -34%; */
 margin-left: 35%;
 margin-top: -32.5%;
 }
 
 .furniture4_img {
-/* width: 32%; */
 width: 30%;
 }
 
 .book1 {
-/* margin-left: 73.3%;
-margin-top: 14.1%; */
 margin-left: 72%;
-    margin-top: 14%;
+margin-top: 14%;
 }
 
 .book1_img, .book2_img, .book3_img, .book4_img {
@@ -1547,20 +1507,16 @@ width: 15.3%;
 }
 
 .book2 {
-/* margin-left: 9.3%;
-margin-top: 52.4%; */
 margin-left: 12.3%;
 margin-top: 51.4%;
 }
 
 .book3 {
-/* margin-left: 41.4%; */
 margin-left: 42%;
 margin-top: 90.1%;
 }
 
 .book4 {
-/* margin-left: 73.3%; */
 margin-left: 72.3%;
 margin-top: 140.3%;
 }
@@ -1606,10 +1562,6 @@ width: 17%;
 
 @media all and (max-width: 1920px){
 .tire9_b {color: black;}
-}
-
-@media all and (min-width: 568px){
-.burger2_b {display:none;}
 }
 
 /* GEROI */
@@ -1856,8 +1808,8 @@ box-sizing: border-box;
 }
 
 .leftl, .rightl {
-  top: 44%;
-  left: 34%;
+top: 44%;
+left: 34%;
 }
 
 .timecode {
@@ -1993,14 +1945,6 @@ margin-top: 2%;
 .burger1_g{
 width: 17%;
 }
-
-/* .next_button {
-width: 15%;
-} */
-
-/* .next_img {
-width: 1%;
-} */
 
 .next {
 width:20%;
@@ -2507,7 +2451,7 @@ left: 9.3%;
 }
 
 .tire4_pr, .tire8_pr, .tire9_pr, .tire14_pr, .tire15_pr, .tire20_pr, .tire21_pr, .tire25_pr, .tire26_pr {
-  transform: rotate(90deg);
+transform: rotate(90deg);
 }
 
 .noltxt, .odintxt, .dvatxt, .tritxt {
@@ -2527,7 +2471,7 @@ top: 39.7%;
 }
 
 .leftlozhatxt, .dvatxt {
-  top: 59%;
+top: 59%;
 }
 
 .bartxt, .tritxt {
@@ -2535,8 +2479,8 @@ top: 79.2%;
 }
 
 .laungeslider, .vhodslider, .barslider, .bathroomslider, .artprslider, .lozhaslider {
-    top: 9.9%;
-  left: 20.5%;
+top: 9.9%;
+left: 20.5%;
 }
 
 .zdanievrez {
@@ -2560,8 +2504,8 @@ left: 9.5%;
 }
 
 .podpis0 {
-  top: 10%;
-  left: 19.5%;
+top: 10%;
+left: 19.5%;
 }
 
 .podpis1 {
@@ -2731,10 +2675,4 @@ margin-top: -75%;
 
 .burger1_pr{
 width: 17%;
-}
-
-/* RESPONSIVE */
-
-@media all and (min-width: 568px){
-.burger2_pr {display:none;}
 }

@@ -764,7 +764,7 @@ div .circle_qartochka1, div .circle_qartochka2 {width: 4%;height: 8%;}
 
 @media all and (max-width: 568px) and (min-width: 320px) and (orientation:landscape) {
 div .tire1_b, div .tire2_b, div .tire3_b, div .tire6_b, div .tire7_b, div .tire8_b {font-size: 11px;width: 83%;}
-div .tire9_b {font-size: 6px;}
+div .tire9_b {font-size: 9px;}
 .book1row img, .book2row img, .book3row img, .book4row img, .book5row img, .book6row img {width: 77.3%;left: 12.5%;}
 div .izdatelstvo, div .moscow, div .bookabout, div .readfull, div .poof_b, div .number4_b, div .table_b, div .number3_b, div .sofa_b, div .number2_b, div .stool_b, div .number1_b, div .ha_b, div .veta_b {font-size: 8px;}
 div .bookstar1, div .bookstar2, div .bookstar3, div .bookstar4, div .tire5_b, div .book1row, div .book2row, div .book3row, div .book4row, div .book5row, div .book6row, div .firstissue {display: none;}

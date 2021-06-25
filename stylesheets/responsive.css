@@ -70,9 +70,11 @@ div .cheture {right: -2%;}
 .contacttxt, .booktxt, .prostranstvotxt, .teamtxt, .abouttxt, .repertuartxt {font-size: 15px;}
 .raz, .dva, .tri, .cheture {font-size: 16px;}
 .eventstxt {left: 44.7%;font-size: 25px;}
-.plakat1txt, .plakat2txt, .plakat3txt, .plakat4txt, .plakat5txt, .plakat6txt, .veta, .ha {font-size: 11px;}
+div .plakat1txt, div .plakat2txt, div .plakat3txt, div .plakat4txt, div .plakat5txt, div .plakat6txt, div .veta, div .ha {font-size: 11px;}
 .plakat5txt {white-space: nowrap;}
-div .plakat2txt {left: 41.3%;}
+div .plakat2txt {left: 43.3%;}
+div .plakat6txt {left: 75.5%;}
+div .plakat5txt {left: 41%;}
 .plakat1 img, .plakat4 img {width: 19%;}
 div .plakat1 {margin-top: 9.5%;}
 div .plakat1txt, div .plakat2txt {top: 51%;}
@@ -86,6 +88,7 @@ div .plakat4 {margin-top: 11%;}
 .plakat6 img {width: 66.6%;}
 div .plakat5 {margin-top: -26.6%;}
 div .plakat6 {margin-top: -26%;}
+div .plakat3txt {left: 76.5%;}
 }
 
 @media all and (max-width: 1024px) and (min-width: 768px) and (orientation:portrait) {
@@ -95,7 +98,7 @@ div .eventstxt {left: 44.3%;top: -2%;font-size: 20px;}
 div .raz {top: 5%;}
 div .plakat1 {margin-top: 9.8%;margin-left: 8%;}
 .plakat1 img {width: 18%;}
-.plakat1txt, .plakat2txt, .plakat3txt, .plakat4txt, .plakat5txt, .plakat6txt, .veta, .ha {font-size: 9px;}
+div .plakat1txt, div .plakat2txt, div .plakat3txt, div .plakat4txt, div .plakat5txt, div .plakat6txt, div .veta, div .ha {font-size: 9px;}
 div .plakat1txt {left: 8%;}
 .plakat2 img {width: 28.3%;}
 div .plakat2 {margin-top: -25%;margin-left: 42%;}
